@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="210.00000000000003" y="231.0">org.fade.principle.isp.C</node>
+    <node x="420.0" y="208.0">org.fade.principle.isp.B</node>
+    <node x="591.0" y="208.0">org.fade.principle.isp.D</node>
+    <node x="314.75" y="0.0">org.fade.principle.isp.Interface</node>
+    <node x="0.0" y="231.0">org.fade.principle.isp.A</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.principle.isp.A" target="org.fade.principle.isp.Interface">
+      <point x="0.0" y="-56.0" />
+      <point x="95.0" y="178.0" />
+      <point x="336.125" y="178.0" />
+      <point x="-64.125" y="79.0" />
+    </edge>
+    <edge source="org.fade.principle.isp.D" target="org.fade.principle.isp.Interface">
+      <point x="0.0" y="-79.0" />
+      <point x="666.5" y="178.0" />
+      <point x="464.375" y="178.0" />
+      <point x="64.125" y="79.0" />
+    </edge>
+    <edge source="org.fade.principle.isp.C" target="org.fade.principle.isp.Interface">
+      <point x="0.0" y="-56.0" />
+      <point x="305.0" y="188.0" />
+      <point x="378.875" y="188.0" />
+      <point x="-21.375" y="79.0" />
+    </edge>
+    <edge source="org.fade.principle.isp.B" target="org.fade.principle.isp.Interface">
+      <point x="0.0" y="-79.0" />
+      <point x="495.5" y="188.0" />
+      <point x="421.625" y="188.0" />
+      <point x="21.375" y="79.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="280.5" y="170.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
