@@ -225,3 +225,9 @@ class C1{
 
 }
 ```
+
+#### 代码
+
+###### [违反接口隔离原则](../../../src/main/java/org/fade/principle/isp/ISP.java)
+
+###### [遵循接口隔离原则](../../../src/main/java/org/fade/principle/isp/ISP1.java)
