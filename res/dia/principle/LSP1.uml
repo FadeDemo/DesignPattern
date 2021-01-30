@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="8.5" y="112.0">org.fade.principle.lsp.A1</node>
+    <node x="0.0" y="207.0">org.fade.principle.lsp.B1</node>
+    <node x="6.3125" y="0.0">org.fade.principle.lsp.Base</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.principle.lsp.B1" target="org.fade.principle.lsp.Base">
+      <point x="46.33333333333334" y="-56.0" />
+      <point x="115.83333333333334" y="182.0" />
+      <point x="99.0" y="182.0" />
+      <point x="99.0" y="91.0" />
+      <point x="110.5625" y="91.0" />
+      <point x="34.75" y="33.0" />
+    </edge>
+    <edge source="org.fade.principle.lsp.B1" target="org.fade.principle.lsp.A1">
+      <point x="-46.33333333333334" y="-56.0" />
+      <point x="23.166666666666657" y="182.0" />
+      <point x="31.5" y="182.0" />
+      <point x="-19.0" y="20.5" />
+    </edge>
+    <edge source="org.fade.principle.lsp.A1" target="org.fade.principle.lsp.Base">
+      <point x="0.0" y="-20.5" />
+      <point x="50.5" y="91.0" />
+      <point x="41.0625" y="91.0" />
+      <point x="-34.75" y="33.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="267.5" y="117.0" />
+  <SelectedNodes>
+    <node>org.fade.principle.lsp.A1</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
