@@ -22,7 +22,6 @@ public class LSP {
 
 class A{
 
-    //可能无意识下重写了方法
     public int fun1(int a,int b){
         return a-b;
     }
@@ -31,6 +30,7 @@ class A{
 
 class B extends A{
 
+    //可能无意识下重写了方法
     @Override
     public int fun1(int a, int b) {
         return a+b;
