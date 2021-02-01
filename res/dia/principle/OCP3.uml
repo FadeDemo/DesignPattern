@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="211.0" y="0.0">org.fade.principle.ocp.Shape1</node>
+    <node x="204.0" y="140.0">org.fade.principle.ocp.Circle1</node>
+    <node x="368.0" y="140.0">org.fade.principle.ocp.Triangle1</node>
+    <node x="0.0" y="140.0">org.fade.principle.ocp.Rectangle1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.principle.ocp.Circle1" target="org.fade.principle.ocp.Shape1">
+      <point x="0.0" y="-33.0" />
+      <point x="0.0" y="45.0" />
+    </edge>
+    <edge source="org.fade.principle.ocp.Rectangle1" target="org.fade.principle.ocp.Shape1">
+      <point x="0.0" y="-33.0" />
+      <point x="92.0" y="115.0" />
+      <point x="232.66666666666666" y="115.0" />
+      <point x="-43.33333333333334" y="45.0" />
+    </edge>
+    <edge source="org.fade.principle.ocp.Triangle1" target="org.fade.principle.ocp.Shape1">
+      <point x="0.0" y="-33.0" />
+      <point x="453.5" y="115.0" />
+      <point x="319.33333333333337" y="115.0" />
+      <point x="43.33333333333337" y="45.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="246.5" y="-24.0" />
+  <SelectedNodes>
+    <node>org.fade.principle.ocp.Triangle1</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

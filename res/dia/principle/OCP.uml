@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="191.0" y="116.0">org.fade.principle.ocp.GraphicEditor</node>
+    <node x="0.0" y="151.5">org.fade.principle.ocp.Rectangle</node>
+    <node x="436.0" y="151.5">org.fade.principle.ocp.Circle</node>
+    <node x="245.5" y="0.0">org.fade.principle.ocp.Shape</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.principle.ocp.Circle" target="org.fade.principle.ocp.Shape">
+      <point x="0.0" y="-20.5" />
+      <point x="501.0" y="91.0" />
+      <point x="342.16666666666663" y="91.0" />
+      <point x="38.66666666666663" y="33.0" />
+    </edge>
+    <edge source="org.fade.principle.ocp.GraphicEditor" target="org.fade.principle.ocp.Shape">
+      <point x="0.0" y="-56.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.principle.ocp.Rectangle" target="org.fade.principle.ocp.Shape">
+      <point x="0.0" y="-20.5" />
+      <point x="85.5" y="91.0" />
+      <point x="264.8333333333333" y="91.0" />
+      <point x="-38.666666666666686" y="33.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="246.5" y="-29.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
