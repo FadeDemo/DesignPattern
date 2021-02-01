@@ -6,6 +6,7 @@
     <node x="211.0" y="0.0">org.fade.principle.ocp.Shape1</node>
     <node x="204.0" y="140.0">org.fade.principle.ocp.Circle1</node>
     <node x="368.0" y="140.0">org.fade.principle.ocp.Triangle1</node>
+    <node x="0.0" y="251.0">org.fade.principle.ocp.GraphicEditor1</node>
     <node x="0.0" y="140.0">org.fade.principle.ocp.Rectangle1</node>
   </nodes>
   <notes />
@@ -27,9 +28,9 @@
       <point x="43.33333333333337" y="45.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="246.5" y="-24.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="246.5" y="32.0" />
   <SelectedNodes>
-    <node>org.fade.principle.ocp.Triangle1</node>
+    <node>org.fade.principle.ocp.GraphicEditor1</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
