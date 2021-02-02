@@ -127,7 +127,7 @@ class SchoolManger{
 }
 ```
 
->上面的例子中SchoolManger类依赖Employee、CollegeManger和CollegeEmployee类，但是它的直接朋友只有Employee类和CollegeManger类，CollegeEmployer类是它的非直接朋友，因为它出现在printAllEmployee方法中，是局部变量
+>上面的例子中SchoolManger类依赖Employee、CollegeManger和CollegeEmployee类，但是它的直接朋友只有Employee类和CollegeManger类，CollegeEmployee类是它的非直接朋友，因为它出现在printAllEmployee方法中，是局部变量
 
 #### 改进
 
