@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="167.0" y="411.0">org.fade.principle.crp.B1</node>
+    <node x="0.0" y="411.0">org.fade.principle.crp.B2</node>
+    <node x="10.0" y="208.0">org.fade.principle.isp.D</node>
+    <node x="372.0" y="411.0">org.fade.principle.crp.B3</node>
+    <node x="0.0" y="0.0">org.fade.principle.isp.Interface</node>
+    <node x="216.0" y="0.0">org.fade.principle.crp.A</node>
+    <node x="260.5" y="162.0">org.fade.principle.crp.B</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.principle.isp.D" target="org.fade.principle.isp.Interface">
+      <point x="0.0" y="-79.0" />
+      <point x="0.0" y="79.0" />
+    </edge>
+    <edge source="org.fade.principle.crp.B" target="org.fade.principle.crp.A">
+      <point x="0.0" y="-20.5" />
+      <point x="0.0" y="56.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="298.0" y="467.0" />
+  <SelectedNodes>
+    <node>org.fade.principle.crp.B</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
