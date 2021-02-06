@@ -2,7 +2,10 @@
 
 #### IDEA版本
 
->IntelliJ IDEA 2020.3.2 (Ultimate Edition)
+```
+IntelliJ IDEA 2020.3.2 (Ultimate Edition)
+Build #IU-203.7148.57, built on January 26, 2021
+```
 
 #### 插件
 
@@ -63,5 +66,9 @@
 >实线、棱形和带有create的虚线，棱形指向整体，箭头指向部分，实线上的数字代表实例的个数
 
 ![](../../../img/uml/Snipaste_2021-02-05_18-37-57.png)
+
+#### 缺点
+
+>目前只支持由已存在的文件中创建类图，不能自由绘制
 
 #### [官方文档](https://www.jetbrains.com/help/idea/class-diagram.html#top)
