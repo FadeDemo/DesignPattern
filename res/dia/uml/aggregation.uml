@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.uml.aggregation</OriginalElement>
+  <nodes>
+    <node x="50.5" y="91.0">org.fade.uml.aggregation.Computer</node>
+    <node x="164.0" y="0.0">org.fade.uml.aggregation.Mouse</node>
+    <node x="0.0" y="0.0">org.fade.uml.aggregation.Monitor</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="113.5" />
+  <SelectedNodes>
+    <node>org.fade.uml.aggregation.Computer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

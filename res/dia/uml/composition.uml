@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.uml.composition</OriginalElement>
+  <nodes>
+    <node x="50.999999999999986" y="91.0">org.fade.uml.composition.Computer</node>
+    <node x="136.0" y="0.0">org.fade.uml.composition.Monitor</node>
+    <node x="0.0" y="0.0">org.fade.uml.composition.Mouse</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="90.0" />
+  <SelectedNodes>
+    <node>org.fade.uml.composition.Computer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
