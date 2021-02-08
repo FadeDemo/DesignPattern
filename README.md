@@ -9,3 +9,5 @@
 + #### [UML类图](res/doc/uml/UML.md)
 
 + #### [设计原则](res/doc/principle/principle.md)
+
++ #### [设计模式](res/doc/pattern/pattern.md)
