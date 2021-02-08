@@ -2,7 +2,7 @@ package org.fade.pattern.singleton.hungry.block;
 
 /**
  * 单例模式
- * 懒汉式（静态代码块）
+ * 饿汉式（静态代码块）
  * @author fade
  * */
 public class BlockExample {
