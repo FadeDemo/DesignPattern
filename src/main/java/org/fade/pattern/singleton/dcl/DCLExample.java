@@ -1,11 +1,11 @@
-package org.fade.pattern.singleton.lazy.secure.block;
+package org.fade.pattern.singleton.dcl;
 
 /**
  * 单例模式
- * 懒汉式(线程安全，同步代码块)
+ * 双重检查
  * @author fade
  * */
-public class BlockExample {
+public class DCLExample {
 
     public static void main(String[] args) {
         Singleton instance1 = Singleton.getInstance();
@@ -17,7 +17,7 @@ public class BlockExample {
 
 class Singleton{
 
-    private static Singleton instance;
+    private static volatile Singleton instance;
 
     //1.构造器私有化
     private Singleton(){
@@ -28,9 +28,11 @@ class Singleton{
     //仅当使用该方法时，才去创建instance
     public static Singleton getInstance() {
         //2.类的内部创建对象
-        if (instance == null){
+        if (instance==null){
             synchronized (Singleton.class){
-                instance = new Singleton();
+                if (instance==null){
+                    instance = new Singleton();
+                }
             }
         }
         return instance;
