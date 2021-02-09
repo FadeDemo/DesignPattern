@@ -50,4 +50,8 @@ class Singleton{
 
 * ###### 此方式和饿汉式(静态常量)单例模式其实类似，只不过将类的实例化过程放在了静态代码块中，故它的优缺点也是和饿汉式(静态常量)单例模式是一样的。
 
+#### 结论
+
+>实际开发中**可用**，但可能造成内存浪费
+
 #### [代码](../../../../../src/main/java/org/fade/pattern/singleton/hungry/block/BlockExample.java)

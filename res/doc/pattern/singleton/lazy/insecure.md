@@ -51,4 +51,8 @@ class Singleton{
 
 * ###### 如果在多线程环境下，一个线程进入了if(instance==null)的代码块中，还未来得及向下执行，此时另一个线程也进入了这个代码块，这时便会产生多个实例。所以这种方式在多线程环境下是不安全的。
 
+#### 结论
+
+>实际开发中**不要使用**这种方式
+
 #### [代码](../../../../../src/main/java/org/fade/pattern/singleton/lazy/insecure/InsecureExample.java)

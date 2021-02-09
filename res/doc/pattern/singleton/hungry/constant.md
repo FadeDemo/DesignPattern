@@ -47,4 +47,8 @@ class Singleton{
 
 * ###### 导致类装载的原因有很多，这就有可能导致并未在真正需要数据的时候，才执行数据加载操作，没有达到Lazy Loading的效果；如果从始至终未使用过这个实例，则会造成内存浪费。
 
+#### 结论
+
+>实际开发中**可用**，但可能造成内存浪费
+
 #### [代码](../../../../../src/main/java/org/fade/pattern/singleton/hungry/constant/ConstantExample.java)
