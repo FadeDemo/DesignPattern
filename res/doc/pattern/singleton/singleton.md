@@ -20,4 +20,4 @@
 
 * #### [静态内部类](inner/inner.md)
 
-* #### 枚举
+* #### [枚举](enumerate/enumerate.md)
