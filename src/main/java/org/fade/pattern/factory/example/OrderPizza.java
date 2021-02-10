@@ -24,10 +24,11 @@ public class OrderPizza {
                 pizza = new CheesePizza();
                 pizza.setName("CheesePizza");
             }
-//            else if (type.equals("pepper")){
-//                pizza = new PepperPizza();
-//                pizza.setName("PepperPizza");
-//            }
+            //增加新的pizza需增加逻辑处理
+            else if (type.equals("pepper")){
+                pizza = new PepperPizza();
+                pizza.setName("PepperPizza");
+            }
             else {
                 break;
             }
