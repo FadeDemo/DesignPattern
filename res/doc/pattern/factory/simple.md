@@ -8,6 +8,8 @@
 
 >还是Pizza的例子，[具体参考](factory.md#例子)
 
+>我们于是采用简单工厂模式来设计系统
+
 ![simple.png](../../../img/pattern/factory/simple.png)
 
 ```java
@@ -86,6 +88,12 @@ public class OrderPizza {
 }
 ```
 
->由上面的代码可以知道，此时创建Pizza实例是由工厂完成的，SimpleFactory根据传入的type的不同创建不同的实例。这时如若要增加Pizza的品种，就不需要修改使用方的代码了，不会违背开闭原则。
+>由上面的代码可以知道，此时创建Pizza实例是由工厂完成的，SimpleFactory根据传入的type的不同创建不同的实例。这时如若要增加Pizza的品种，就不需要修改OrderPizza的代码了，但是仍然需要修改SimpleFactory。
+
+#### 优缺点
+
+* ###### 使使用者不用关心对象创建逻辑，实现了解耦
+
+* ###### 仍然违背了开闭原则，一旦变化需求就有可能需要修改工厂类的代码
 
 #### [代码](../../../../src/main/java/org/fade/pattern/factory/simple)

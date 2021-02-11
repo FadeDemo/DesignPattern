@@ -116,6 +116,6 @@ public class OrderPizza {
 
 * #### [简单工厂模式](simple.md)
 
-* #### 工厂方法模式
+* #### [工厂方法模式](method.md)
 
 
