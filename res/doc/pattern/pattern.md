@@ -4,7 +4,7 @@
 
 * #### [单例模式](singleton/singleton.md)
 
-* #### 抽象工厂模式
+* #### [抽象工厂模式](abstraction/abstraction.md)
 
 * #### 原型模式
 

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.abstraction</OriginalElement>
+  <nodes>
+    <node x="910.5" y="252.0">org.fade.pattern.factory.method.LondonPepperPizza</node>
+    <node x="10.5" y="252.0">org.fade.pattern.factory.method.BeijingPepperPizza</node>
+    <node x="323.50000000000006" y="252.0">org.fade.pattern.factory.method.BeijingCheesePizza</node>
+    <node x="637.5" y="252.0">org.fade.pattern.abstraction.AbstractFactory</node>
+    <node x="1211.5" y="252.0">org.fade.pattern.factory.method.LondonCheesePizza</node>
+    <node x="193.7656250000001" y="391.5">org.fade.pattern.abstraction.BeijingFactory</node>
+    <node x="1013.0156250000001" y="391.5">org.fade.pattern.abstraction.LondonFactory</node>
+    <node x="608.5" y="0.0">org.fade.pattern.factory.example.Pizza</node>
+    <node x="591.3125" y="368.0">org.fade.pattern.abstraction.OrderPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.abstraction.LondonFactory" target="org.fade.pattern.factory.example.Pizza">
+      <point x="28.125" y="-33.0" />
+      <point x="1153.640625" y="348.0" />
+      <point x="1201.0" y="348.0" />
+      <point x="1201.0" y="212.0" />
+      <point x="749.875" y="212.0" />
+      <point x="54.375" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.OrderPizza" target="org.fade.pattern.abstraction.AbstractFactory">
+      <point x="0.0" y="-56.5" />
+      <point x="711.3125" y="348.0" />
+      <point x="732.375" y="348.0" />
+      <point x="-31.625" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.LondonFactory" target="org.fade.pattern.abstraction.AbstractFactory">
+      <point x="-84.375" y="-33.0" />
+      <point x="1041.140625" y="348.0" />
+      <point x="858.875" y="348.0" />
+      <point x="94.875" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.factory.method.BeijingPepperPizza" target="org.fade.pattern.factory.example.Pizza">
+      <point x="5.6843418860808015E-14" y="-33.0" />
+      <point x="157.0" y="212.0" />
+      <point x="641.125" y="212.0" />
+      <point x="-54.375" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.LondonFactory" target="org.fade.pattern.factory.method.LondonPepperPizza">
+      <point x="-28.125" y="-33.0" />
+      <point x="1097.390625" y="348.0" />
+      <point x="1050.5" y="348.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.BeijingFactory" target="org.fade.pattern.factory.method.BeijingPepperPizza">
+      <point x="-29.875" y="-33.0" />
+      <point x="283.3906250000001" y="338.0" />
+      <point x="157.0" y="338.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.LondonFactory" target="org.fade.pattern.factory.method.LondonCheesePizza">
+      <point x="84.375" y="-33.0" />
+      <point x="1209.890625" y="348.0" />
+      <point x="1351.5" y="348.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.AbstractFactory" target="org.fade.pattern.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="764.0" y="232.0" />
+      <point x="706.375" y="232.0" />
+      <point x="10.875" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.OrderPizza" target="org.fade.pattern.factory.example.Pizza">
+      <point x="-80.0" y="-56.5" />
+      <point x="631.3125" y="338.0" />
+      <point x="627.0" y="338.0" />
+      <point x="627.0" y="232.0" />
+      <point x="684.625" y="232.0" />
+      <point x="-10.875" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.BeijingFactory" target="org.fade.pattern.abstraction.AbstractFactory">
+      <point x="89.625" y="-33.0" />
+      <point x="402.8906250000001" y="348.0" />
+      <point x="669.125" y="348.0" />
+      <point x="-94.875" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.factory.method.LondonPepperPizza" target="org.fade.pattern.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="1050.5" y="222.0" />
+      <point x="728.125" y="222.0" />
+      <point x="32.625" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.BeijingFactory" target="org.fade.pattern.factory.example.Pizza">
+      <point x="-89.625" y="-33.0" />
+      <point x="223.6406250000001" y="348.0" />
+      <point x="0.0" y="348.0" />
+      <point x="0.0" y="202.0" />
+      <point x="619.375" y="202.0" />
+      <point x="-76.125" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.factory.method.BeijingCheesePizza" target="org.fade.pattern.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="470.00000000000006" y="222.0" />
+      <point x="662.875" y="222.0" />
+      <point x="-32.625" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.factory.method.LondonCheesePizza" target="org.fade.pattern.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="1351.5" y="202.0" />
+      <point x="771.625" y="202.0" />
+      <point x="76.125" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.abstraction.BeijingFactory" target="org.fade.pattern.factory.method.BeijingCheesePizza">
+      <point x="29.875" y="-33.0" />
+      <point x="343.1406250000001" y="338.0" />
+      <point x="470.00000000000006" y="338.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6611185086551264" x="741.0000000000001" y="240.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

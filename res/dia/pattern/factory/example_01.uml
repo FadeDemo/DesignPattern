@@ -23,8 +23,10 @@
       <point x="-43.5" y="91.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.7036363636363636" x="201.0" y="265.0" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="201.0" y="204.5" />
+  <SelectedNodes>
+    <node>org.fade.pattern.factory.example.GreekPizza</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>
