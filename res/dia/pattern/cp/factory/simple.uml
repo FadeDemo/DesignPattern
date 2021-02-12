@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="232.0">org.fade.pattern.cp.factory.example.PepperPizza</node>
+    <node x="422.0" y="232.0">org.fade.pattern.cp.factory.example.CheesePizza</node>
+    <node x="223.0" y="0.0">org.fade.pattern.cp.factory.example.Pizza</node>
+    <node x="315.0" y="343.0">org.fade.pattern.cp.factory.simple.SimpleFactory</node>
+    <node x="0.0" y="343.0">org.fade.pattern.cp.factory.simple.OrderPizza</node>
+    <node x="218.0" y="232.0">org.fade.pattern.cp.factory.example.GreekPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.cp.factory.example.PepperPizza" target="org.fade.pattern.cp.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="99.0" y="207.0" />
+      <point x="252.0" y="207.0" />
+      <point x="-58.0" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.cp.factory.example.GreekPizza" target="org.fade.pattern.cp.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="0.0" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.cp.factory.example.CheesePizza" target="org.fade.pattern.cp.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="521.0" y="207.0" />
+      <point x="368.0" y="207.0" />
+      <point x="58.0" y="91.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="264.0" y="221.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.cp.factory.simple.OrderPizza</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

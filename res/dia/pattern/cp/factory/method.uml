@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="313.0" y="232.0">org.fade.pattern.cp.factory.method.LondonCheesePizza</node>
+    <node x="0.0" y="482.0">org.fade.pattern.cp.factory.method.BeijingOrderPizza</node>
+    <node x="913.0" y="232.0">org.fade.pattern.cp.factory.method.BeijingCheesePizza</node>
+    <node x="613.0" y="232.0">org.fade.pattern.cp.factory.method.LondonPepperPizza</node>
+    <node x="516.0" y="0.0">org.fade.pattern.cp.factory.example.Pizza</node>
+    <node x="192.5" y="343.0">org.fade.pattern.cp.factory.method.OrderPizza</node>
+    <node x="300.0" y="482.0">org.fade.pattern.cp.factory.method.LondonOrderPizza</node>
+    <node x="0.0" y="232.0">org.fade.pattern.cp.factory.method.BeijingPepperPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.cp.factory.method.LondonPepperPizza" target="org.fade.pattern.cp.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="753.0" y="212.0" />
+      <point x="624.75" y="212.0" />
+      <point x="21.75" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.cp.factory.method.LondonOrderPizza" target="org.fade.pattern.cp.factory.method.OrderPizza">
+      <point x="0.0" y="-33.0" />
+      <point x="433.0" y="457.0" />
+      <point x="333.5" y="457.0" />
+      <point x="47.0" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.cp.factory.method.BeijingPepperPizza" target="org.fade.pattern.cp.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="146.5" y="202.0" />
+      <point x="537.75" y="202.0" />
+      <point x="-65.25" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.cp.factory.method.BeijingOrderPizza" target="org.fade.pattern.cp.factory.method.OrderPizza">
+      <point x="0.0" y="-33.0" />
+      <point x="140.0" y="457.0" />
+      <point x="239.5" y="457.0" />
+      <point x="-47.0" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.cp.factory.method.BeijingCheesePizza" target="org.fade.pattern.cp.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="1059.5" y="202.0" />
+      <point x="668.25" y="202.0" />
+      <point x="65.25" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.cp.factory.method.LondonCheesePizza" target="org.fade.pattern.cp.factory.example.Pizza">
+      <point x="0.0" y="-33.0" />
+      <point x="453.0" y="212.0" />
+      <point x="581.25" y="212.0" />
+      <point x="-21.75" y="91.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6939203354297695" x="705.0" y="117.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.cp.factory.method.BeijingOrderPizza</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
