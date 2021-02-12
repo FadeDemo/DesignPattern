@@ -118,4 +118,8 @@ public class OrderPizza {
 
 * #### [工厂方法模式](method.md)
 
+#### 在JDK中的应用实例
 
+* ###### java.util.Calendar
+
+![#1](../../../img/pattern/factory/Snipaste_2021-02-12_20-40-01.png)
