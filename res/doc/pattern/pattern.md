@@ -2,15 +2,15 @@
 
 #### 创建型模式
 
-* #### [单例模式](singleton/singleton.md)
+* #### [单例模式](cp/singleton/singleton.md)
 
-* #### [抽象工厂模式](abstraction/abstraction.md)
+* #### [抽象工厂模式](cp/abstraction/abstraction.md)
 
 * #### 原型模式
 
 * #### 建造者模式
 
-* #### [工厂模式](factory/factory.md)
+* #### [工厂模式](cp/factory/factory.md)
 
 #### 结构型模式
 
