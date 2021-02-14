@@ -6,7 +6,7 @@
 
 * #### [抽象工厂模式](cp/abstraction/abstraction.md)
 
-* #### 原型模式
+* #### [原型模式](cp/prototype/prototype.md)
 
 * #### 建造者模式
 
