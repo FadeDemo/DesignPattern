@@ -158,4 +158,6 @@ public class Client {
 
 ###### [代码](../../../../../src/main/java/org/fade/pattern/cp/prototype/improve)
 
+#### [原型模式下的浅拷贝问题](shallow.md)
+
 
