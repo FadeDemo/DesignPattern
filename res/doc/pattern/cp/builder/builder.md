@@ -91,6 +91,17 @@ public class Client {
 }
 ```
 
+###### 运行结果
+
+```
+正在为普通房子打地基......
+正在为普通房子砌墙......
+正在为普通房子封顶......
+正在为别墅打地基......
+正在为别墅砌墙......
+正在为别墅封顶......
+```
+
 ###### 分析
 
 * ###### 优点是比较好理解，且简单易操作
@@ -118,5 +129,206 @@ public class Client {
 #### 原理类图
 
 ![builder.jpg](../../../../img/pattern/cp/builder/builder.jpg)
+
+#### 改进
+
+###### UML类图
+
+![improve.png](../../../../img/pattern/cp/builder/improve.png)
+
+###### [代码](../../../../../src/main/java/org/fade/pattern/cp/builder/improve)
+
+>Product-House
+
+```java
+public class House {
+
+    private boolean isLayFoundation;
+
+    private boolean isBuildWall;
+
+    private boolean isBuildRoof;
+
+    public boolean isLayFoundation() {
+        return this.isLayFoundation;
+    }
+
+    public void setLayFoundation(boolean layFoundation) {
+        this.isLayFoundation = layFoundation;
+    }
+
+    public boolean isBuildWall() {
+        return this.isBuildWall;
+    }
+
+    public void setBuildWall(boolean buildWall) {
+        this.isBuildWall = buildWall;
+    }
+
+    public boolean isBuildRoof() {
+        return this.isBuildRoof;
+    }
+
+    public void setBuildRoof(boolean buildRoof) {
+        this.isBuildRoof = buildRoof;
+    }
+
+    @Override
+    public String toString() {
+        if(this.isLayFoundation&&this.isBuildWall&&this.isBuildRoof){
+            return "房子建造完成";
+        }
+        else if(!(this.isLayFoundation||this.isBuildWall||this.isBuildRoof)){
+            return "房子尚未开始建造";
+        }
+        else{
+            return "房子正在建造中";
+        }
+    }
+
+}
+```
+
+>Builder-HouseBuilder
+
+```java
+public abstract class HouseBuilder {
+
+    protected House house = new House();
+
+    public abstract void layFoundation();
+
+    public abstract void buildWall();
+
+    public abstract void buildRoof();
+
+    public House getHouse(){
+        return this.house;
+    }
+
+}
+```
+
+>ConcreteBuilder-CommonHouseBuilder
+
+```java
+public class CommonHouseBuilder extends HouseBuilder {
+
+    @Override
+    public void layFoundation() {
+        System.out.println("正在为普通房子打地基......");
+        super.house.setLayFoundation(true);
+    }
+
+    @Override
+    public void buildWall() {
+        System.out.println("正在为普通房子砌墙......");
+        super.house.setBuildWall(true);
+    }
+
+    @Override
+    public void buildRoof() {
+        System.out.println("正在为普通房子封顶......");
+        super.house.setBuildRoof(true);
+    }
+
+}
+```
+
+>ConcreteBuilder-VillaBuilder
+
+```java
+public class VillaBuilder extends HouseBuilder {
+
+    @Override
+    public void layFoundation() {
+        System.out.println("正在为别墅打地基......");
+        super.house.setLayFoundation(true);
+    }
+
+    @Override
+    public void buildWall() {
+        System.out.println("正在为别墅砌墙......");
+        super.house.setBuildWall(true);
+    }
+
+    @Override
+    public void buildRoof() {
+        System.out.println("正在为别墅封顶......");
+        super.house.setBuildRoof(true);
+    }
+
+}
+```
+
+>Director-HouseDirector
+
+```java
+public class HouseDirector {
+
+    private HouseBuilder builder;
+
+    public HouseBuilder getBuilder() {
+        return builder;
+    }
+
+    public void setBuilder(HouseBuilder builder) {
+        this.builder = builder;
+    }
+
+    public House build(){
+        this.builder.layFoundation();
+        System.out.println(this.builder.getHouse().toString());
+        this.builder.buildWall();
+        System.out.println(this.builder.getHouse().toString());
+        this.builder.buildRoof();
+        return builder.getHouse();
+    }
+
+}
+```
+
+>Client
+
+```java
+public class Client {
+
+    public static void main(String[] args) {
+        CommonHouseBuilder commonHouseBuilder = new CommonHouseBuilder();
+        VillaBuilder villaBuilder = new VillaBuilder();
+        HouseDirector director = new HouseDirector();
+        System.out.println(commonHouseBuilder.getHouse().toString());
+        director.setBuilder(commonHouseBuilder);
+        director.build();
+        System.out.println(commonHouseBuilder.getHouse().toString());
+        System.out.println("**********************split**********************");
+        System.out.println(villaBuilder.getHouse().toString());
+        director.setBuilder(villaBuilder);
+        director.build();
+        System.out.println(villaBuilder.getHouse().toString());
+    }
+
+}
+```
+
+###### 运行结果
+
+```
+房子尚未开始建造
+正在为普通房子打地基......
+房子正在建造中
+正在为普通房子砌墙......
+房子正在建造中
+正在为普通房子封顶......
+房子建造完成
+**********************split**********************
+房子尚未开始建造
+正在为别墅打地基......
+房子正在建造中
+正在为别墅砌墙......
+房子正在建造中
+正在为别墅封顶......
+房子建造完成
+```
 
 
