@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.cp.builder.example</OriginalElement>
+  <nodes>
+    <node x="189.0" y="185.0">org.fade.pattern.cp.builder.example.CommonHouse</node>
+    <node x="101.75" y="0.0">org.fade.pattern.cp.builder.example.House</node>
+    <node x="0.0" y="185.0">org.fade.pattern.cp.builder.example.Villa</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.cp.builder.example.Villa" target="org.fade.pattern.cp.builder.example.House">
+      <point x="0.0" y="-56.0" />
+      <point x="84.5" y="160.0" />
+      <point x="144.0" y="160.0" />
+      <point x="-42.25" y="67.5" />
+    </edge>
+    <edge source="org.fade.pattern.cp.builder.example.CommonHouse" target="org.fade.pattern.cp.builder.example.House">
+      <point x="0.0" y="-56.0" />
+      <point x="288.0" y="160.0" />
+      <point x="228.5" y="160.0" />
+      <point x="42.25" y="67.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="193.5" y="148.5" />
+  <SelectedNodes>
+    <node>org.fade.pattern.cp.builder.example.CommonHouse</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

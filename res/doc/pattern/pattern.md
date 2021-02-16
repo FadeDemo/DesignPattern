@@ -8,7 +8,7 @@
 
 * #### [原型模式](cp/prototype/prototype.md)
 
-* #### 建造者模式
+* #### [建造者模式](cp/builder/builder.md)
 
 * #### [工厂模式](cp/factory/factory.md)
 
