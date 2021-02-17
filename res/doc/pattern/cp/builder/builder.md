@@ -339,7 +339,7 @@ public class Client {
 
 ![#1](../../../../img/pattern/cp/builder/Snipaste_2021-02-17_16-00-55.png)
 
->AbstractStringBuilder虽然是个抽象类，不能实例化，但是它实现了Appendable接口，已扮演着具体建造者的角色，是ConcreteBuilder
+>AbstractStringBuilder虽然是个抽象类，不能实例化，但是它实现了Appendable接口，扮演着具体建造者的角色，是ConcreteBuilder
 
 ![#2](../../../../img/pattern/cp/builder/Snipaste_2021-02-17_16-04-54.png)
 
