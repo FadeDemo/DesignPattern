@@ -331,4 +331,28 @@ public class Client {
 房子建造完成
 ```
 
+#### 在JDK中的应用实例
 
+* ###### java.lang.StringBuilder
+
+>Appendable接口定义了多个append抽象方法，所以Appendable扮演着抽象建造者的角色，是Builder
+
+![#1](../../../../img/pattern/cp/builder/Snipaste_2021-02-17_16-00-55.png)
+
+>AbstractStringBuilder虽然是个抽象类，不能实例化，但是它实现了Appendable接口，已扮演着具体建造者的角色，是ConcreteBuilder
+
+![#2](../../../../img/pattern/cp/builder/Snipaste_2021-02-17_16-04-54.png)
+
+>StringBuilder继承了AbstractStringBuilder，也决定了如何使用父类的append方法，所以它既充当了具体建造者的角色也充当了导演的角色，即是ConcreteBuilder和Director
+
+![#3](../../../../img/pattern/cp/builder/Snipaste_2021-02-17_16-11-55.png)
+
+#### 总结
+
+* ###### 建造者模式在实际应用中并不会完全遵照“Builder-ConcreteBuilder-Director-Product”模式来编写
+
+* ###### 增加新的具体建造者无需修改原有类库代码，符合开闭原则
+
+* ###### 建造者模式不适用于产品之间有较大差异的情形
+
+* ###### 抽象工厂模式不关心产品的构建过程，只关心什么产品由什么工厂生产；而建造者模式则要求按指定蓝图构建产品
