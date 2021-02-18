@@ -10,16 +10,6 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="org.fade.pattern.sp.adapter.obj.VoltageAdapter" target="org.fade.pattern.sp.adapter.clz.Voltage220">
-      <point x="-79.66666666666669" y="-56.5" />
-      <point x="58.333333333333314" y="91.0" />
-      <point x="46.0" y="91.0" />
-      <point x="-46.0" y="33.0" />
-    </edge>
-    <edge source="org.fade.pattern.sp.adapter.clz.Phone" target="org.fade.pattern.sp.adapter.clz.Voltage5">
-      <point x="0.0" y="-33.0" />
-      <point x="39.25" y="33.0" />
-    </edge>
     <edge source="org.fade.pattern.sp.adapter.obj.VoltageAdapter" target="org.fade.pattern.sp.adapter.clz.Voltage5">
       <point x="79.66666666666669" y="-56.5" />
       <point x="217.66666666666669" y="91.0" />
