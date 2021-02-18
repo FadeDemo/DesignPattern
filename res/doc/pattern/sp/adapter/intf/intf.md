@@ -88,3 +88,25 @@ public class Client {
 #### 优缺点
 
 * ###### 灵活度高
+
+#### 在Android中的应用实例
+
+* ###### android.animation.AnimatorListenerAdapter
+
+>在为ValueAnimator类的实例添加监听器时可以采用下图所示的方法
+
+![#1](../../../../../img/pattern/sp/adapter/intf/2021-02-18_16-40.png)
+
+>很明显有些时候我们并不是想要实现所有的方法，并且这样写也显得代码累赘
+
+>于是我们可以使用AnimatorListenerAdapter来适配
+
+![#2](../../../../../img/pattern/sp/adapter/intf/2021-02-18_16-44.png)
+
+>这里的AnimatorListenerAdapter就是接口适配器应用的一个实例
+
+>我们可以查看AnimatorListenerAdapter的源码，可以知道它就是一个实现（空实现）了接口的抽象类
+
+![#3](../../../../../img/pattern/sp/adapter/intf/2021-02-18_16-48.png)
+
+
