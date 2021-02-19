@@ -16,4 +16,18 @@
 
 * ###### [接口适配器](intf/intf.md)
 
+#### 在SpringMVC框架中的应用实例
+
+>回忆下SpringMVC处理请求的流程：
+
+![SpringMVC.png](../../../../img/pattern/sp/adapter/SpringMVC.png)
+
+>可以看到流程中有这么一步，在HandlerMapping返回一个HandlerExecutionChain实例后，DispatcherServlet会根据这个HandlerExecutionChain实例去请求相应的适配器适配，适配器则会调用相应Handler(Controller)处理请求。代码如下图所示：
+
+![#1](../../../../img/pattern/sp/adapter/Snipaste_2021-02-18_22-14-09.png)
+
+![#2](../../../../img/pattern/sp/adapter/Snipaste_2021-02-18_22-16-23.png)
+
+![#3](../../../../img/pattern/sp/adapter/Snipaste_2021-02-18_22-18-13.png)
+
 
