@@ -18,6 +18,8 @@
 
 #### 在SpringMVC框架中的应用实例
 
+###### 源码分析
+
 >回忆下SpringMVC处理请求的流程：
 
 ![SpringMVC.png](../../../../img/pattern/sp/adapter/SpringMVC.png)
@@ -33,3 +35,5 @@
 >至于为什么这里要使用适配器模式，这是因为这里Handler的实现方式有多种，那么调用处理请求的方法的方式也就是不确定的。如果不采取适配器模式的话，那么调用的时候就不得不使用大量if-else来判断，这对于扩展功能是不利的。
 
 ![#4](../../../../img/pattern/sp/adapter/Snipaste_2021-02-19_16-51-02.png)
+
+###### [流程模拟](mvc/mvc.md)

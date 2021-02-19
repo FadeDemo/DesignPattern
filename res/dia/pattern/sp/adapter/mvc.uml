@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.sp.adapter.mvc</OriginalElement>
+  <nodes>
+    <node x="347.50000000000006" y="102.5">org.fade.pattern.sp.adapter.mvc.controller.HttpController</node>
+    <node x="52.75" y="230.0">org.fade.pattern.sp.adapter.mvc.adapter.SimpleHandlerAdapter</node>
+    <node x="884.0993589743591" y="102.5">org.fade.pattern.sp.adapter.mvc.controller.AnnotationController</node>
+    <node x="393.74999999999994" y="230.0">org.fade.pattern.sp.adapter.mvc.adapter.HttpHandlerAdapter</node>
+    <node x="763.3493589743591" y="230.0">org.fade.pattern.sp.adapter.mvc.adapter.AnnotationHandlerAdapter</node>
+    <node x="0.0" y="102.5">org.fade.pattern.sp.adapter.mvc.controller.SimpleController</node>
+    <node x="582.8493589743591" y="369.0">org.fade.pattern.sp.adapter.mvc.servlet.DispatcherServlet</node>
+    <node x="606.5" y="91.0">org.fade.pattern.sp.adapter.mvc.adapter.HandlerAdapter</node>
+    <node x="660.3012820512821" y="0.0">org.fade.pattern.sp.adapter.mvc.controller.Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.sp.adapter.mvc.adapter.SimpleHandlerAdapter" target="org.fade.pattern.sp.adapter.mvc.adapter.HandlerAdapter">
+      <point x="80.25" y="-44.5" />
+      <point x="293.5" y="200.0" />
+      <point x="630.4000000000001" y="200.0" />
+      <point x="-95.60000000000002" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.adapter.mvc.controller.SimpleController" target="org.fade.pattern.sp.adapter.mvc.controller.Controller">
+      <point x="0.0" y="-33.0" />
+      <point x="133.0" y="61.0" />
+      <point x="683.3012820512821" y="61.0" />
+      <point x="-69.0" y="20.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.adapter.mvc.adapter.HttpHandlerAdapter" target="org.fade.pattern.sp.adapter.mvc.adapter.HandlerAdapter">
+      <point x="73.25000000000011" y="-44.5" />
+      <point x="613.5" y="210.0" />
+      <point x="678.2" y="210.0" />
+      <point x="-47.80000000000001" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.adapter.mvc.controller.HttpController" target="org.fade.pattern.sp.adapter.mvc.controller.Controller">
+      <point x="0.0" y="-33.0" />
+      <point x="467.00000000000006" y="71.0" />
+      <point x="729.3012820512821" y="71.0" />
+      <point x="-23.0" y="20.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.adapter.mvc.adapter.AnnotationHandlerAdapter" target="org.fade.pattern.sp.adapter.mvc.adapter.HandlerAdapter">
+      <point x="-93.75" y="-44.5" />
+      <point x="857.0993589743591" y="210.0" />
+      <point x="821.6000000000001" y="210.0" />
+      <point x="95.60000000000002" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.adapter.mvc.controller.AnnotationController" target="org.fade.pattern.sp.adapter.mvc.controller.Controller">
+      <point x="0.0" y="-33.0" />
+      <point x="1044.5993589743591" y="71.0" />
+      <point x="775.3012820512821" y="71.0" />
+      <point x="23.0" y="20.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8605577689243028" x="603.0" y="241.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.sp.adapter.mvc.controller.Controller</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
