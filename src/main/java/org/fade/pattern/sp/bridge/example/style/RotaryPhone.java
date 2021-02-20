@@ -1,4 +1,6 @@
-package org.fade.pattern.sp.bridge.example;
+package org.fade.pattern.sp.bridge.example.style;
+
+import org.fade.pattern.sp.bridge.example.prototype.Phone;
 
 /**
  * 桥接模式

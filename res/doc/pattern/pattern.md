@@ -16,7 +16,7 @@
 
 * #### [适配器模式](sp/adapter/adapter.md)
 
-* #### 桥接模式
+* #### [桥接模式](sp/bridge/bridge.md)
 
 * #### 装饰模式
 

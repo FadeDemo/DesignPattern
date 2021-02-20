@@ -1,12 +1,14 @@
-package org.fade.pattern.sp.bridge.example;
+package org.fade.pattern.sp.bridge.example.brand.huawei;
+
+import org.fade.pattern.sp.bridge.example.style.FoldablePhone;
 
 /**
  * 桥接模式
  * 例子
- * 华为旋转式手机
+ * 华为折叠式手机
  * @author fade
  * */
-public class HUAWEIRotaryPhone extends RotaryPhone {
+public class HUAWEIFoldablePhone extends FoldablePhone {
 
     @Override
     public void open() {

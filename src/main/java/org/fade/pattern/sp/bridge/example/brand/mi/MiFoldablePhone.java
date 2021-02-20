@@ -1,12 +1,14 @@
-package org.fade.pattern.sp.bridge.example;
+package org.fade.pattern.sp.bridge.example.brand.mi;
+
+import org.fade.pattern.sp.bridge.example.style.FoldablePhone;
 
 /**
  * 桥接模式
  * 例子
- * 小米直立式手机
+ * 小米折叠式手机
  * @author fade
  * */
-public class MiBarPhone extends BarPhone {
+public class MiFoldablePhone extends FoldablePhone {
 
     @Override
     public void open() {

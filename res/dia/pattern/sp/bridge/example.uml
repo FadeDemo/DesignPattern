@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1104.0" y="324.0">org.fade.pattern.sp.bridge.example.brand.vivo.VivoBarPhone</node>
+    <node x="1867.5" y="162.0">org.fade.pattern.sp.bridge.example.style.RotaryPhone</node>
+    <node x="1151.5" y="0.0">org.fade.pattern.sp.bridge.example.prototype.Phone</node>
+    <node x="341.0" y="162.0">org.fade.pattern.sp.bridge.example.style.FoldablePhone</node>
+    <node x="327.0" y="324.0">org.fade.pattern.sp.bridge.example.brand.mi.MiFoldablePhone</node>
+    <node x="1336.0" y="324.0">org.fade.pattern.sp.bridge.example.brand.huawei.HUAWEIBarPhone</node>
+    <node x="1131.5" y="162.0">org.fade.pattern.sp.bridge.example.style.BarPhone</node>
+    <node x="600.0" y="324.0">org.fade.pattern.sp.bridge.example.brand.vivo.VivoFoldablePhone</node>
+    <node x="0.0" y="324.0">org.fade.pattern.sp.bridge.example.brand.huawei.HUAWEIFoldablePhone</node>
+    <node x="900.0" y="324.0">org.fade.pattern.sp.bridge.example.brand.mi.MiBarPhone</node>
+    <node x="1840.0" y="324.0">org.fade.pattern.sp.bridge.example.brand.vivo.VivoRotaryPhone</node>
+    <node x="2113.0" y="324.0">org.fade.pattern.sp.bridge.example.brand.huawei.HUAWEIRotaryPhone</node>
+    <node x="1595.0" y="324.0">org.fade.pattern.sp.bridge.example.brand.mi.MiRotaryPhone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.sp.bridge.example.brand.vivo.VivoBarPhone" target="org.fade.pattern.sp.bridge.example.style.BarPhone">
+      <point x="0.0" y="-56.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.brand.mi.MiRotaryPhone" target="org.fade.pattern.sp.bridge.example.style.RotaryPhone">
+      <point x="0.0" y="-56.0" />
+      <point x="1707.5" y="299.0" />
+      <point x="1900.5" y="299.0" />
+      <point x="-66.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.brand.vivo.VivoFoldablePhone" target="org.fade.pattern.sp.bridge.example.style.FoldablePhone">
+      <point x="0.0" y="-56.0" />
+      <point x="740.0" y="299.0" />
+      <point x="528.5" y="299.0" />
+      <point x="75.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.style.FoldablePhone" target="org.fade.pattern.sp.bridge.example.prototype.Phone">
+      <point x="0.0" y="-56.0" />
+      <point x="453.5" y="137.0" />
+      <point x="1171.0" y="137.0" />
+      <point x="-39.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.brand.huawei.HUAWEIBarPhone" target="org.fade.pattern.sp.bridge.example.style.BarPhone">
+      <point x="0.0" y="-56.0" />
+      <point x="1455.5" y="299.0" />
+      <point x="1262.3333333333333" y="299.0" />
+      <point x="52.33333333333326" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.brand.mi.MiFoldablePhone" target="org.fade.pattern.sp.bridge.example.style.FoldablePhone">
+      <point x="0.0" y="-56.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.brand.huawei.HUAWEIRotaryPhone" target="org.fade.pattern.sp.bridge.example.style.RotaryPhone">
+      <point x="0.0" y="-56.0" />
+      <point x="2253.0" y="299.0" />
+      <point x="2032.5" y="299.0" />
+      <point x="66.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.style.RotaryPhone" target="org.fade.pattern.sp.bridge.example.prototype.Phone">
+      <point x="0.0" y="-56.0" />
+      <point x="1966.5" y="137.0" />
+      <point x="1249.0" y="137.0" />
+      <point x="39.000000000000114" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.style.BarPhone" target="org.fade.pattern.sp.bridge.example.prototype.Phone">
+      <point x="0.0" y="-56.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.brand.mi.MiBarPhone" target="org.fade.pattern.sp.bridge.example.style.BarPhone">
+      <point x="0.0" y="-56.0" />
+      <point x="992.0" y="299.0" />
+      <point x="1157.6666666666667" y="299.0" />
+      <point x="-52.33333333333326" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.brand.huawei.HUAWEIFoldablePhone" target="org.fade.pattern.sp.bridge.example.style.FoldablePhone">
+      <point x="-1.1368683772161603E-13" y="-56.0" />
+      <point x="153.5" y="299.0" />
+      <point x="378.5" y="299.0" />
+      <point x="-75.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.example.brand.vivo.VivoRotaryPhone" target="org.fade.pattern.sp.bridge.example.style.RotaryPhone">
+      <point x="0.0" y="-56.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1030.0" y="254.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.sp.bridge.example.brand.mi.MiRotaryPhone</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

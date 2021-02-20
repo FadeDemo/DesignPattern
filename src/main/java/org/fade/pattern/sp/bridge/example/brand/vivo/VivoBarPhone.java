@@ -1,4 +1,6 @@
-package org.fade.pattern.sp.bridge.example;
+package org.fade.pattern.sp.bridge.example.brand.vivo;
+
+import org.fade.pattern.sp.bridge.example.style.BarPhone;
 
 /**
  * 桥接模式

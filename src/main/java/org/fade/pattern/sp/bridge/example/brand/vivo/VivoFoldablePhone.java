@@ -1,12 +1,14 @@
-package org.fade.pattern.sp.bridge.example;
+package org.fade.pattern.sp.bridge.example.brand.vivo;
+
+import org.fade.pattern.sp.bridge.example.style.FoldablePhone;
 
 /**
  * 桥接模式
  * 例子
- * vivo旋转式手机
+ * vivo折叠式手机
  * @author fade
  * */
-public class VivoRotaryPhone extends RotaryPhone {
+public class VivoFoldablePhone extends FoldablePhone {
 
     @Override
     public void open() {

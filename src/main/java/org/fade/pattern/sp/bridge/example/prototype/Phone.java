@@ -1,4 +1,4 @@
-package org.fade.pattern.sp.bridge.example;
+package org.fade.pattern.sp.bridge.example.prototype;
 
 /**
  * 桥接模式
