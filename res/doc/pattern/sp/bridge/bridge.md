@@ -12,7 +12,7 @@
 
 #### 传统方式
 
-###### UML类图<span style="display:none">1</span>
+###### UML类图
 
 ![example_2.png](../../../../img/pattern/sp/bridge/example_2.png)
 
@@ -20,7 +20,7 @@
 
 >由于代码过多，这里就不再展示代码
 
-###### 分析<span style="display:none">1</span>
+###### 分析
 
 >显然这种设计方式，在要进行扩展时是很不好的。
 
@@ -32,7 +32,7 @@
 
 ![example_3.png](../../../../img/pattern/sp/bridge/example_3.png)
 
->答案对比下[前面的UML类图](./bridge.md#UML类图<span style="display:none">1</span>)就很容易知道：需要增加大量的类文件。
+>答案对比下[前面的UML类图](./bridge.md#UML类图)就很容易知道：需要增加大量的类文件。
 
 >这样不仅会导致类爆炸，还违背了单一职责原则，不利于系统的维护
 
@@ -48,7 +48,7 @@
 
 ###### 分析
 
->现作[如上的假设](./bridge.md#分析<span style="display:none">1</span>)：
+>现作[如上的假设](./bridge.md#分析)：
 
 >假设某一时刻，UML类图如下所示，如果想要增加样式为旋转的手机，应该怎么修改？
 
