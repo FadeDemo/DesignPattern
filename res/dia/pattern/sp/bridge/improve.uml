@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="528.0">org.fade.pattern.sp.bridge.improve.brand.HUAWEI</node>
+    <node x="150.0" y="366.0">org.fade.pattern.sp.bridge.improve.brand.Brand</node>
+    <node x="287.0" y="528.0">org.fade.pattern.sp.bridge.improve.brand.Vivo</node>
+    <node x="211.0" y="0.0">org.fade.pattern.sp.bridge.improve.prototype.Phone</node>
+    <node x="0.0" y="209.0">org.fade.pattern.sp.bridge.improve.style.RotaryPhone</node>
+    <node x="395.0" y="209.0">org.fade.pattern.sp.bridge.improve.style.FoldablePhone</node>
+    <node x="150.0" y="528.0">org.fade.pattern.sp.bridge.improve.brand.Mi</node>
+    <node x="218.0" y="209.0">org.fade.pattern.sp.bridge.improve.style.BarPhone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.sp.bridge.improve.style.RotaryPhone" target="org.fade.pattern.sp.bridge.improve.prototype.Phone">
+      <point x="0.0" y="-56.0" />
+      <point x="99.0" y="184.0" />
+      <point x="239.5" y="184.0" />
+      <point x="-57.0" y="79.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.improve.brand.Mi" target="org.fade.pattern.sp.bridge.improve.brand.Brand">
+      <point x="0.0" y="-56.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.improve.style.FoldablePhone" target="org.fade.pattern.sp.bridge.improve.prototype.Phone">
+      <point x="0.0" y="-56.0" />
+      <point x="507.5" y="184.0" />
+      <point x="353.5" y="184.0" />
+      <point x="57.0" y="79.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.improve.brand.HUAWEI" target="org.fade.pattern.sp.bridge.improve.brand.Brand">
+      <point x="0.0" y="-56.0" />
+      <point x="65.0" y="503.0" />
+      <point x="169.5" y="503.0" />
+      <point x="-39.0" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.improve.style.BarPhone" target="org.fade.pattern.sp.bridge.improve.prototype.Phone">
+      <point x="0.0" y="-56.0" />
+      <point x="0.0" y="79.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.bridge.improve.brand.Vivo" target="org.fade.pattern.sp.bridge.improve.brand.Brand">
+      <point x="0.0" y="-56.0" />
+      <point x="345.5" y="503.0" />
+      <point x="247.5" y="503.0" />
+      <point x="39.0" y="56.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="286.0" y="241.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.sp.bridge.improve.brand.HUAWEI</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
