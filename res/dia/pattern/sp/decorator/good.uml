@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.sp.decorator.example.good</OriginalElement>
+  <nodes>
+    <node x="159.5" y="0.0">org.fade.pattern.sp.decorator.example.good.Coffee</node>
+    <node x="0.0" y="462.0">org.fade.pattern.sp.decorator.example.good.Espresso</node>
+    <node x="177.0" y="462.0">org.fade.pattern.sp.decorator.example.good.LongBlack</node>
+    <node x="368.0" y="462.0">org.fade.pattern.sp.decorator.example.good.ShortBlack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.sp.decorator.example.good.Espresso" target="org.fade.pattern.sp.decorator.example.good.Coffee">
+      <point x="0.0" y="-33.0" />
+      <point x="78.5" y="437.0" />
+      <point x="193.83333333333331" y="437.0" />
+      <point x="-68.66666666666669" y="206.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.decorator.example.good.ShortBlack" target="org.fade.pattern.sp.decorator.example.good.Coffee">
+      <point x="0.0" y="-33.0" />
+      <point x="460.0" y="437.0" />
+      <point x="331.1666666666667" y="437.0" />
+      <point x="68.66666666666669" y="206.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.decorator.example.good.LongBlack" target="org.fade.pattern.sp.decorator.example.good.Coffee">
+      <point x="0.0" y="-33.0" />
+      <point x="0.0" y="206.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7627737226277372" x="276.0" y="264.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.sp.decorator.example.good.ShortBlack</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

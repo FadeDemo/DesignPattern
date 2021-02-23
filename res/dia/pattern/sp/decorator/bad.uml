@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.sp.decorator.example.bad</OriginalElement>
+  <nodes>
+    <node x="394.99999999999994" y="265.0">org.fade.pattern.sp.decorator.example.bad.ChocolateEspresso</node>
+    <node x="568.25" y="0.0">org.fade.pattern.sp.decorator.example.bad.Coffee</node>
+    <node x="695.0" y="265.0">org.fade.pattern.sp.decorator.example.bad.SugarEspresso</node>
+    <node x="203.99999999999994" y="265.0">org.fade.pattern.sp.decorator.example.bad.LongBlack</node>
+    <node x="1117.0" y="265.0">org.fade.pattern.sp.decorator.example.bad.MilkEspresso</node>
+    <node x="940.0" y="265.0">org.fade.pattern.sp.decorator.example.bad.Espresso</node>
+    <node x="0.0" y="265.0">org.fade.pattern.sp.decorator.example.bad.ShortBlack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.sp.decorator.example.bad.ShortBlack" target="org.fade.pattern.sp.decorator.example.bad.Coffee">
+      <point x="0.0" y="-33.0" />
+      <point x="92.0" y="225.0" />
+      <point x="585.4166666666665" y="225.0" />
+      <point x="-85.83333333333337" y="102.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.decorator.example.bad.SugarEspresso" target="org.fade.pattern.sp.decorator.example.bad.Coffee">
+      <point x="0.0" y="-33.0" />
+      <point x="807.5" y="245.0" />
+      <point x="688.4166666666665" y="245.0" />
+      <point x="17.16666666666663" y="102.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.decorator.example.bad.LongBlack" target="org.fade.pattern.sp.decorator.example.bad.Coffee">
+      <point x="0.0" y="-33.0" />
+      <point x="289.49999999999994" y="235.0" />
+      <point x="619.75" y="235.0" />
+      <point x="-51.5" y="102.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.decorator.example.bad.ChocolateEspresso" target="org.fade.pattern.sp.decorator.example.bad.Coffee">
+      <point x="0.0" y="-33.0" />
+      <point x="535.0" y="245.0" />
+      <point x="654.0833333333333" y="245.0" />
+      <point x="-17.16666666666663" y="102.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.decorator.example.bad.MilkEspresso" target="org.fade.pattern.sp.decorator.example.bad.Coffee">
+      <point x="0.0" y="-33.0" />
+      <point x="1223.0" y="225.0" />
+      <point x="757.0833333333333" y="225.0" />
+      <point x="85.83333333333337" y="102.5" />
+    </edge>
+    <edge source="org.fade.pattern.sp.decorator.example.bad.Espresso" target="org.fade.pattern.sp.decorator.example.bad.Coffee">
+      <point x="0.0" y="-33.0" />
+      <point x="1018.5" y="235.0" />
+      <point x="722.75" y="235.0" />
+      <point x="51.5" y="102.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7613046701260193" x="664.5" y="71.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.sp.decorator.example.bad.ShortBlack</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
