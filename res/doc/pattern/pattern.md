@@ -18,7 +18,7 @@
 
 * #### [桥接模式](sp/bridge/bridge.md)
 
-* #### 装饰器模式
+* #### [装饰器模式](sp/decorator/decorator.md)
 
 * #### 组合模式
 
