@@ -60,8 +60,32 @@
 
 >并且当下订单时，如果出现下面的订单：2份巧克力+1份牛奶+浓缩咖啡
 
->只需在浓缩咖啡对象外面一层层用配料包裹住即可，即动态的像对象添加功能，形象的可以理解为：
+>只需在浓缩咖啡对象外面一层层用配料包裹住即可，即动态的向对象添加功能，形象的可以理解为：
 
 ![order.png](../../../../img/pattern/sp/decorator/order.png)
 
+#### 在JDK中的应用实例
 
+* ###### java.io
+
+![io.png](../../../../img/pattern/sp/decorator/io.png)
+
+>图中的FilterInputStream就相当于Decorator，而InputStream就相当于抽象Component
+
+![#1](../../../../img/pattern/sp/decorator/Snipaste_2021-02-23_18-03-05.png)
+
+>InputStream是抽象类
+
+![#2](../../../../img/pattern/sp/decorator/Snipaste_2021-02-23_18-02-51.png)
+
+>FilterInputStream继承又关联了InputStream
+
+>也可以发现IO中包装流的使用方法也和前面的改进部分的相似
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        InputStream in = new DataInputStream(new ByteArrayInputStream());
+    }
+}
+```
