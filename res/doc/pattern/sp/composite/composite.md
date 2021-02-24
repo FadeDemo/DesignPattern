@@ -26,4 +26,242 @@
 
 #### 改进
 
+###### UML类图
+
+![composite.png](../../../../img/pattern/sp/composite/composite.png)
+
+###### [代码](../../../../../src/main/java/org/fade/pattern/sp/composite)
+
+* ###### Organization.java
+
+```java
+public abstract class Organization {
+
+    /**
+     * 组织名
+     * */
+    private String name;
+
+    /**
+     * 添加组织
+     * @param organization 组织
+     * */
+    public void add(Organization organization){
+        //默认实现
+        throw new UnsupportedOperationException();
+    }
+
+    /**
+     * 移除组织
+     * @param organization 组织
+     * */
+    public void remove(Organization organization){
+        //默认实现
+        throw new UnsupportedOperationException();
+    }
+
+    /**
+     * Constructor of Organization
+     * @param name 组织名
+     * */
+    public Organization(String name) {
+        this.name = name;
+    }
+
+    /**
+     * 获得组织名
+     * @return 组织名
+     * */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * 设置组织名
+     * @param name 组织名
+     * */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * 打印组织信息
+     * */
+    public abstract void print();
+
+}
+```
+
+* ###### University.java
+
+```java
+public class University extends Organization {
+
+    /**
+     * 大学里的下属组织
+     * */
+    List<Organization> university;
+
+    /**
+     * Constructor of University
+     * @param name 大学名
+     * */
+    public University(String name){
+        super(name);
+        this.university = new LinkedList<>();
+    }
+
+    /**
+     * 添加下属组织
+     * @param organization 下属组织
+     * */
+    @Override
+    public void add(Organization organization) {
+        this.university.add(organization);
+    }
+
+    /**
+     * 移除下属组织
+     * @param organization 下属组织
+     * */
+    @Override
+    public void remove(Organization organization) {
+        this.university.remove(organization);
+    }
+
+    /**
+     * 打印组织信息
+     */
+    @Override
+    public void print() {
+        System.out.println("--------------------"+super.getName()+"--------------------");
+        for (Organization organization:university
+             ) {
+            organization.print();
+        }
+    }
+
+}
+```
+
+* ###### College.java
+
+```java
+public class College extends Organization{
+
+    /**
+     * 学院里的下属组织
+     * */
+    List<Organization> college;
+
+    /**
+     * Constructor of College
+     * @param name 学院名
+     * */
+    public College(String name){
+        super(name);
+        this.college = new LinkedList<>();
+    }
+
+    /**
+     * 添加下属组织
+     * @param organization 下属组织
+     * */
+    @Override
+    public void add(Organization organization) {
+        this.college.add(organization);
+    }
+
+    /**
+     * 移除下属组织
+     * @param organization 下属组织
+     * */
+    @Override
+    public void remove(Organization organization) {
+        this.college.remove(organization);
+    }
+
+    /**
+     * 打印组织信息
+     */
+    @Override
+    public void print() {
+        System.out.println("--------------------"+super.getName()+"--------------------");
+        for (Organization organization:college
+        ) {
+            organization.print();
+        }
+    }
+
+}
+```
+
+* ###### Department.java
+
+```java
+public class Department extends Organization {
+
+    /**
+     * Constructor of Department
+     * @param name 系名
+     * */
+    public Department(String name){
+        super(name);
+    }
+
+    /**
+     * 打印组织信息
+     */
+    @Override
+    public void print() {
+        System.out.println(super.getName());
+    }
+
+}
+```
+
+* ###### Client.java
+
+```java
+public class Client {
+
+    public static void main(String[] args) {
+        Organization ncu = new University("ncu");
+        Organization information = new College("信息工程学院");
+        Organization science = new College("理学院");
+        Organization computer = new Department("计算机科学与技术系");
+        Organization auto = new Department("自动化系");
+        Organization electronics = new Department("电子系");
+        Organization physics = new Department("物理系");
+        Organization math = new Department("数学系");
+        ncu.add(information);
+        ncu.add(science);
+        information.add(computer);
+        information.add(auto);
+        information.add(electronics);
+        science.add(physics);
+        science.add(math);
+        ncu.print();
+    }
+
+}
+```
+
+###### 运行结果
+
+```
+--------------------ncu--------------------
+--------------------信息工程学院--------------------
+计算机科学与技术系
+自动化系
+电子系
+--------------------理学院--------------------
+物理系
+数学系
+```
+
+###### 分析
+
+>可以看到使用组合模式设计程序后，对节点的管理操作明显自由多了
+
 
