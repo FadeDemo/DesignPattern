@@ -78,7 +78,7 @@
 
 ![#2](../../../../img/pattern/sp/decorator/Snipaste_2021-02-23_18-02-51.png)
 
->FilterInputStream继承又关联了InputStream
+>FilterInputStream既继承又关联了InputStream
 
 >也可以发现IO中包装流的使用方法也和前面的改进部分的相似
 

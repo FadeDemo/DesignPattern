@@ -20,7 +20,7 @@
 
 * #### [装饰器模式](sp/decorator/decorator.md)
 
-* #### 组合模式
+* #### [组合模式](sp/composite/composite.md)
 
 * #### 外观模式
 
