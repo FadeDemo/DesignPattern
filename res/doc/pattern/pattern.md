@@ -22,7 +22,7 @@
 
 * #### [组合模式](sp/composite/composite.md)
 
-* #### 外观模式
+* #### [外观模式](sp/facade/facade.md)
 
 * #### 享元模式
 
