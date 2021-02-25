@@ -84,6 +84,10 @@ public class Theater {
 }
 ```
 
+###### 分析
+
+>传统方式下是在客户端直接创建各个子系统的对象，并直接去调用子系统的相关方法，对客户端暴露了子系统的细节
+
 #### 改进
 
 ###### UML类图
@@ -172,4 +176,38 @@ public class Theater {
 }
 ```
 
+###### 分析
 
+>可以看到在使用外观模式设计系统后，客户端只需要使用外观类即可，并不需要知道子系统的内部细节
+
+#### 在MyBatis中的应用实例
+
+>Configuration类中有一个创建MetaObject对象的方法
+
+![#1](../../../../img/pattern/sp/facade/Snipaste_2021-02-25_22-17-00.png)
+
+>查看MetaObject类里的这个方法
+
+![#2](../../../../img/pattern/sp/facade/Snipaste_2021-02-25_22-18-46.png)
+
+>发现其调用了一个构造器，查看其代码
+
+![#3](../../../../img/pattern/sp/facade/Snipaste_2021-02-25_22-19-03.png)
+
+>这里的Configuration就相当于外观类，而ObjectFactory这些工厂类就相当于子系统类
+
+>UML类图为：
+
+![mybatis_uml.png](../../../../img/pattern/sp/facade/mybatis_uml.png)
+
+>更清晰地可以表示为：
+
+![mybatis_uml.png](../../../../img/pattern/sp/facade/mybatis_clear.png)
+
+#### 优缺点
+
+* ###### 屏蔽了子系统的细节，降低了客户端使用子系统的复杂性
+
+* ###### 对于维护遗留的大型系统时，可以考虑使用外观模式来对外提供比较清晰简单的接口
+
+* ###### 要正确区分对于某系统来说是直接调用模块好还是使用外观模式好，不能过多或不合理使用外观模式

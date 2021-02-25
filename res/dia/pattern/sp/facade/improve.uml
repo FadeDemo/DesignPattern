@@ -3,22 +3,25 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="258.0">org.fade.pattern.sp.facade.example.Stereo</node>
-    <node x="0.0" y="172.0">org.fade.pattern.sp.facade.improve.Theater</node>
-    <node x="175.0" y="258.0">org.fade.pattern.sp.facade.example.Screen</node>
-    <node x="216.0" y="86.0">org.fade.pattern.sp.facade.example.DVDPlayer</node>
-    <node x="0.0" y="344.0">org.fade.pattern.sp.facade.example.Light</node>
-    <node x="0.0" y="0.0">org.fade.pattern.sp.facade.example.PopcornMaker</node>
-    <node x="189.0" y="172.0">org.fade.pattern.sp.facade.improve.Facade</node>
-    <node x="0.0" y="86.0">org.fade.pattern.sp.facade.example.Projector</node>
+    <node x="0.0" y="296.0">org.fade.pattern.sp.facade.example.Stereo</node>
+    <node x="417.0" y="523.0">org.fade.pattern.sp.facade.improve.Theater</node>
+    <node x="0.0" y="523.0">org.fade.pattern.sp.facade.example.Screen</node>
+    <node x="272.0" y="0.0">org.fade.pattern.sp.facade.example.DVDPlayer</node>
+    <node x="214.0" y="523.0">org.fade.pattern.sp.facade.example.Light</node>
+    <node x="213.0" y="296.0">org.fade.pattern.sp.facade.example.PopcornMaker</node>
+    <node x="0.0" y="0.0">org.fade.pattern.sp.facade.improve.Facade</node>
+    <node x="473.0" y="296.0">org.fade.pattern.sp.facade.example.Projector</node>
   </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="283.0" y="17.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="283.0" y="18.0" />
   <SelectedNodes>
     <node>org.fade.pattern.sp.facade.improve.Theater</node>
   </SelectedNodes>
-  <Categories />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>
