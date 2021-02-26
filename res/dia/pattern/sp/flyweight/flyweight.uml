@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.sp.flyweight</OriginalElement>
+  <nodes>
+    <node x="202.0208333333333" y="419.0">org.fade.pattern.sp.flyweight.Client</node>
+    <node x="99.52604166666663" y="256.0">org.fade.pattern.sp.flyweight.WebsiteFactory</node>
+    <node x="0.0" y="116.0">org.fade.pattern.sp.flyweight.ConcreteWebsite</node>
+    <node x="209.19791666666663" y="0.0">org.fade.pattern.sp.flyweight.Website</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.sp.flyweight.ConcreteWebsite" target="org.fade.pattern.sp.flyweight.Website">
+      <point x="0.0" y="-45.0" />
+      <point x="126.5" y="91.0" />
+      <point x="227.19791666666663" y="91.0" />
+      <point x="-54.0" y="33.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8633663366336634" x="180.5" y="242.5" />
+  <SelectedNodes>
+    <node>org.fade.pattern.sp.flyweight.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

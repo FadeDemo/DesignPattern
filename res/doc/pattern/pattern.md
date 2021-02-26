@@ -24,7 +24,7 @@
 
 * #### [外观模式](sp/facade/facade.md)
 
-* #### 享元模式
+* #### [享元模式](sp/flyweight/flyweight.md)
 
 * #### 代理模式
 
