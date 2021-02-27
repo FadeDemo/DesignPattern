@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="235.625" y="256.0">org.fade.pattern.sp.proxy.dynamicproxy.Client</node>
+    <node x="327.0" y="128.0">org.fade.pattern.sp.proxy.staticproxy.Teacher</node>
+    <node x="0.0" y="116.0">org.fade.pattern.sp.proxy.dynamicproxy.TeacherProxyFactory</node>
+    <node x="361.75" y="0.0">org.fade.pattern.sp.proxy.staticproxy.ITeacher</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.sp.proxy.staticproxy.Teacher" target="org.fade.pattern.sp.proxy.staticproxy.ITeacher">
+      <point x="0.0" y="-33.0" />
+      <point x="399.0" y="91.0" />
+      <point x="401.0" y="91.0" />
+      <point x="-39.25" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.proxy.dynamicproxy.Client" target="org.fade.pattern.sp.proxy.staticproxy.Teacher">
+      <point x="19.75" y="-33.0" />
+      <point x="334.375" y="226.0" />
+      <point x="399.0" y="226.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.proxy.dynamicproxy.Client" target="org.fade.pattern.sp.proxy.staticproxy.ITeacher">
+      <point x="59.25" y="-33.0" />
+      <point x="373.875" y="236.0" />
+      <point x="481.5" y="236.0" />
+      <point x="481.5" y="91.0" />
+      <point x="479.5" y="91.0" />
+      <point x="39.25" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.sp.proxy.dynamicproxy.Client" target="org.fade.pattern.sp.proxy.dynamicproxy.TeacherProxyFactory">
+      <point x="-19.75" y="-33.0" />
+      <point x="294.875" y="226.0" />
+      <point x="230.25" y="226.0" />
+      <point x="76.75" y="45.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="319.0" y="39.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.sp.proxy.dynamicproxy.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

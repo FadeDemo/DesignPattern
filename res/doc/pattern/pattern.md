@@ -26,7 +26,7 @@
 
 * #### [享元模式](sp/flyweight/flyweight.md)
 
-* #### 代理模式
+* #### [代理模式](sp/proxy/proxy.md)
 
 #### 行为型模式
 
