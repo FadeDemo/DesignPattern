@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.command</OriginalElement>
+  <nodes>
+    <node x="224.99999999999994" y="139.0">org.fade.pattern.bp.command.Light</node>
+    <node x="270.99999999999994" y="354.0">org.fade.pattern.bp.command.LightOffCommand</node>
+    <node x="680.6671428571428" y="139.0">org.fade.pattern.bp.command.NullCommand</node>
+    <node x="242.87499999999994" y="583.0">org.fade.pattern.bp.command.Client</node>
+    <node x="0.0" y="354.0">org.fade.pattern.bp.command.LightOnCommand</node>
+    <node x="544.0" y="308.0">org.fade.pattern.bp.command.RemoteController</node>
+    <node x="570.75" y="0.0">org.fade.pattern.bp.command.Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.command.Client" target="org.fade.pattern.bp.command.Light">
+      <point x="-29.625" y="-33.0" />
+      <point x="292.24999999999994" y="543.0" />
+      <point x="249.49999999999994" y="543.0" />
+      <point x="249.49999999999994" y="278.0" />
+      <point x="273.3333333333333" y="278.0" />
+      <point x="-9.666666666666629" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.RemoteController" target="org.fade.pattern.bp.command.NullCommand">
+      <point x="127.19999999999999" y="-102.5" />
+      <point x="830.1999999999999" y="288.0" />
+      <point x="779.6671428571428" y="288.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.Client" target="org.fade.pattern.bp.command.LightOffCommand">
+      <point x="9.875" y="-33.0" />
+      <point x="331.74999999999994" y="563.0" />
+      <point x="334.24999999999994" y="563.0" />
+      <point x="-63.25" y="56.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.Client" target="org.fade.pattern.bp.command.LightOnCommand">
+      <point x="-69.125" y="-33.0" />
+      <point x="252.74999999999994" y="563.0" />
+      <point x="59.75" y="563.0" />
+      <point x="-59.75" y="56.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.RemoteController" target="org.fade.pattern.bp.command.Command">
+      <point x="0.0" y="-102.5" />
+      <point x="703.0" y="288.0" />
+      <point x="659.1671428571428" y="288.0" />
+      <point x="659.1671428571428" y="119.0" />
+      <point x="663.3214285714284" y="119.0" />
+      <point x="20.571428571428555" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.LightOnCommand" target="org.fade.pattern.bp.command.Light">
+      <point x="0.0" y="-56.5" />
+      <point x="119.5" y="258.0" />
+      <point x="234.66666666666657" y="258.0" />
+      <point x="-48.33333333333337" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.Client" target="org.fade.pattern.bp.command.RemoteController">
+      <point x="49.375" y="-33.0" />
+      <point x="371.24999999999994" y="553.0" />
+      <point x="623.5" y="553.0" />
+      <point x="-79.5" y="102.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.LightOnCommand" target="org.fade.pattern.bp.command.Command">
+      <point x="-79.66666666666669" y="-56.5" />
+      <point x="39.833333333333314" y="248.0" />
+      <point x="141.26619047619045" y="248.0" />
+      <point x="141.26619047619045" y="109.0" />
+      <point x="581.0357142857142" y="109.0" />
+      <point x="-61.71428571428572" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.NullCommand" target="org.fade.pattern.bp.command.Command">
+      <point x="0.0" y="-44.5" />
+      <point x="779.6671428571428" y="119.0" />
+      <point x="704.4642857142857" y="119.0" />
+      <point x="61.71428571428572" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.LightOffCommand" target="org.fade.pattern.bp.command.Command">
+      <point x="84.33333333333337" y="-56.5" />
+      <point x="481.8333333333333" y="119.0" />
+      <point x="601.6071428571428" y="119.0" />
+      <point x="-41.14285714285714" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.command.LightOffCommand" target="org.fade.pattern.bp.command.Light">
+      <point x="-84.33333333333326" y="-56.5" />
+      <point x="313.1666666666667" y="288.0" />
+      <point x="311.99999999999994" y="288.0" />
+      <point x="29.0" y="44.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8718027734976888" x="430.9999999999999" y="314.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
