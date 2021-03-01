@@ -32,7 +32,7 @@
 
 * #### [模板方法模式](bp/template/template.md)
 
-* #### 命令模式
+* #### [命令模式](bp/command/command.md)
 
 * #### 访问者模式
 
