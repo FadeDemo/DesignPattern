@@ -228,7 +228,7 @@ public class Client {
 
 ![#3](../../../../img/pattern/bp/command/Snipaste_2021-03-01_20-15-06.png)
 
->而对query()方法进行查看，发现他有这么一段代码：
+>而对query()方法进行查看，发现它有这么一段代码：
 
 ![#4](../../../../img/pattern/bp/command/Snipaste_2021-03-01_20-03-59.png)
 
