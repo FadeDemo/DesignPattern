@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.visitor</OriginalElement>
+  <nodes>
+    <node x="184.0" y="389.0">org.fade.pattern.bp.visitor.Man</node>
+    <node x="0.0" y="389.0">org.fade.pattern.bp.visitor.Woman</node>
+    <node x="0.0" y="500.0">org.fade.pattern.bp.visitor.Client</node>
+    <node x="393.0" y="273.0">org.fade.pattern.bp.visitor.Audience</node>
+    <node x="252.0" y="139.0">org.fade.pattern.bp.visitor.Bad</node>
+    <node x="126.0" y="0.0">org.fade.pattern.bp.visitor.Action</node>
+    <node x="0.0" y="139.0">org.fade.pattern.bp.visitor.Good</node>
+    <node x="92.0" y="273.0">org.fade.pattern.bp.visitor.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.visitor.Woman" target="org.fade.pattern.bp.visitor.Person">
+      <point x="0.0" y="-33.0" />
+      <point x="82.0" y="364.0" />
+      <point x="133.0" y="364.0" />
+      <point x="-41.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.visitor.Man" target="org.fade.pattern.bp.visitor.Person">
+      <point x="0.0" y="-33.0" />
+      <point x="266.0" y="364.0" />
+      <point x="215.0" y="364.0" />
+      <point x="41.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.visitor.Bad" target="org.fade.pattern.bp.visitor.Action">
+      <point x="0.0" y="-44.5" />
+      <point x="368.0" y="114.0" />
+      <point x="300.0" y="114.0" />
+      <point x="58.0" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.visitor.Good" target="org.fade.pattern.bp.visitor.Action">
+      <point x="0.0" y="-44.5" />
+      <point x="116.0" y="114.0" />
+      <point x="184.0" y="114.0" />
+      <point x="-58.0" y="44.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="207.0" y="197.5" />
+  <SelectedNodes>
+    <node>org.fade.pattern.bp.visitor.Person</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

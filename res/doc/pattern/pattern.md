@@ -34,7 +34,7 @@
 
 * #### [命令模式](bp/command/command.md)
 
-* #### 访问者模式
+* #### [访问者模式](bp/visitor/visitor.md)
 
 * #### 迭代器模式
 
