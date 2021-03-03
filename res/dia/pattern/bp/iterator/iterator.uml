@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.iterator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="215.0">org.fade.pattern.bp.iterator.InfoCollegeIterator</node>
+    <node x="516.1803571428571" y="0.0">java.util.Iterator</node>
+    <node x="965.6660714285714" y="215.0">org.fade.pattern.bp.iterator.ComputerCollegeIterator</node>
+    <node x="413.49999999999994" y="447.5">org.fade.pattern.bp.iterator.College</node>
+    <node x="197.40892857142876" y="654.5">org.fade.pattern.bp.iterator.InfoCollege</node>
+    <node x="619.6660714285714" y="852.0">org.fade.pattern.bp.iterator.Client</node>
+    <node x="689.5" y="401.0">org.fade.pattern.bp.iterator.Department</node>
+    <node x="347.99999999999994" y="227.0">java.lang.Iterable</node>
+    <node x="826.2232142857142" y="643.0">org.fade.pattern.bp.iterator.ComputerCollege</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.iterator.InfoCollege" target="org.fade.pattern.bp.iterator.College">
+      <point x="31.999999999999886" y="-68.0" />
+      <point x="357.40892857142865" y="613.0" />
+      <point x="456.1666666666666" y="613.0" />
+      <point x="-85.33333333333337" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.ComputerCollege" target="java.util.Iterator">
+      <point x="32.0" y="-79.5" />
+      <point x="986.2232142857142" y="623.0" />
+      <point x="955.1660714285714" y="623.0" />
+      <point x="955.1660714285714" y="195.0" />
+      <point x="721.2517857142857" y="195.0" />
+      <point x="45.571428571428555" y="67.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.Client" target="org.fade.pattern.bp.iterator.College">
+      <point x="-66.0" y="-56.0" />
+      <point x="718.6660714285714" y="822.0" />
+      <point x="541.5" y="822.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.Client" target="org.fade.pattern.bp.iterator.InfoCollege">
+      <point x="-132.0" y="-56.0" />
+      <point x="652.6660714285714" y="832.0" />
+      <point x="325.40892857142876" y="832.0" />
+      <point x="0.0" y="68.0" />
+    </edge>
+    <edge source="java.lang.Iterable" target="java.util.Iterator">
+      <point x="0.0" y="-56.0" />
+      <point x="476.99999999999994" y="195.0" />
+      <point x="675.6803571428571" y="195.0" />
+      <point x="0.0" y="67.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.College" target="java.lang.Iterable">
+      <point x="0.0" y="-44.5" />
+      <point x="64.5" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.InfoCollege" target="org.fade.pattern.bp.iterator.Department">
+      <point x="95.99999999999989" y="-68.0" />
+      <point x="421.40892857142865" y="623.0" />
+      <point x="723.8333333333333" y="623.0" />
+      <point x="-68.66666666666669" y="91.0" />
+    </edge>
+    <edge source="java.lang.Iterable" target="java.lang.Iterable">
+      <point x="-64.5" y="56.0" />
+      <point x="412.49999999999994" y="359.0" />
+      <point x="327.99999999999994" y="359.0" />
+      <point x="327.99999999999994" y="283.0" />
+      <point x="-129.0" y="-0.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.InfoCollege" target="java.util.Iterator">
+      <point x="-32.000000000000114" y="-68.0" />
+      <point x="293.40892857142865" y="623.0" />
+      <point x="317.49999999999994" y="623.0" />
+      <point x="317.49999999999994" y="185.0" />
+      <point x="630.1089285714286" y="185.0" />
+      <point x="-45.571428571428555" y="67.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.Client" target="java.util.Iterator">
+      <point x="132.0" y="-56.0" />
+      <point x="916.6660714285714" y="832.0" />
+      <point x="1337.1660714285715" y="832.0" />
+      <point x="1337.1660714285715" y="175.0" />
+      <point x="812.3946428571428" y="175.0" />
+      <point x="136.71428571428567" y="67.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.ComputerCollege" target="org.fade.pattern.bp.iterator.ComputerCollegeIterator">
+      <point x="96.00000000000003" y="-79.5" />
+      <point x="1050.2232142857142" y="623.0" />
+      <point x="1146.1660714285713" y="623.0" />
+      <point x="0.0" y="68.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.Client" target="org.fade.pattern.bp.iterator.ComputerCollege">
+      <point x="66.0" y="-56.0" />
+      <point x="850.6660714285714" y="822.0" />
+      <point x="954.2232142857142" y="822.0" />
+      <point x="0.0" y="79.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.Client" target="org.fade.pattern.bp.iterator.Department">
+      <point x="0.0" y="-56.0" />
+      <point x="784.6660714285714" y="832.0" />
+      <point x="792.5" y="832.0" />
+      <point x="0.0" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.ComputerCollege" target="org.fade.pattern.bp.iterator.Department">
+      <point x="-32.0" y="-79.5" />
+      <point x="922.2232142857142" y="603.0" />
+      <point x="861.1666666666665" y="603.0" />
+      <point x="68.66666666666663" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.InfoCollege" target="org.fade.pattern.bp.iterator.InfoCollegeIterator">
+      <point x="-96.00000000000011" y="-68.0" />
+      <point x="229.40892857142865" y="623.0" />
+      <point x="153.5" y="623.0" />
+      <point x="0.0" y="68.0" />
+    </edge>
+    <edge source="java.util.Iterator" target="java.util.Iterator">
+      <point x="-136.71428571428572" y="67.5" />
+      <point x="538.9660714285714" y="155.0" />
+      <point x="496.18035714285713" y="155.0" />
+      <point x="496.18035714285713" y="67.5" />
+      <point x="-159.5" y="-0.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.ComputerCollege" target="org.fade.pattern.bp.iterator.College">
+      <point x="-96.0" y="-79.5" />
+      <point x="858.2232142857142" y="613.0" />
+      <point x="626.8333333333333" y="613.0" />
+      <point x="85.33333333333337" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.InfoCollegeIterator" target="java.util.Iterator">
+      <point x="-1.1368683772161603E-13" y="-68.0" />
+      <point x="153.4999999999999" y="175.0" />
+      <point x="584.5375" y="175.0" />
+      <point x="-91.14285714285711" y="67.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.iterator.ComputerCollegeIterator" target="java.util.Iterator">
+      <point x="0.0" y="-68.0" />
+      <point x="1146.1660714285713" y="185.0" />
+      <point x="766.8232142857142" y="185.0" />
+      <point x="91.14285714285711" y="67.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="595.0" y="266.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

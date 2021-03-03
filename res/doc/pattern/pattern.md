@@ -36,7 +36,7 @@
 
 * #### [访问者模式](bp/visitor/visitor.md)
 
-* #### 迭代器模式
+* #### [迭代器模式](bp/iterator/iterator.md)
 
 * #### 观察者模式
 
