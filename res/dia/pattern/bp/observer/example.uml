@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.observer.example</OriginalElement>
+  <nodes>
+    <node x="0.0" y="209.0">org.fade.pattern.bp.observer.example.WeatherData</node>
+    <node x="186.5" y="441.0">org.fade.pattern.bp.observer.example.Client</node>
+    <node x="61.45833333333334" y="0.0">org.fade.pattern.bp.observer.example.CurrentWeatherCondition</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.8273244781783681" x="211.5" y="253.5" />
+  <SelectedNodes>
+    <node>org.fade.pattern.bp.observer.example.WeatherData</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
