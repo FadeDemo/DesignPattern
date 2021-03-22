@@ -38,7 +38,7 @@
 
 * #### [迭代器模式](bp/iterator/iterator.md)
 
-* #### 观察者模式
+* #### [观察者模式](bp/observer/observer.md)
 
 * #### 中介者模式
 
