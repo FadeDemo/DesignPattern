@@ -40,7 +40,7 @@
 
 * #### [观察者模式](bp/observer/observer.md)
 
-* #### 中介者模式
+* #### [中介者模式](bp/mediator/mediator.md)
 
 * #### 备忘录模式
 

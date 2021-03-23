@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.mediator</OriginalElement>
+  <nodes>
+    <node x="160.83333333333331" y="0.0">org.fade.pattern.bp.mediator.Mediator</node>
+    <node x="10.5" y="409.5">org.fade.pattern.bp.mediator.Alarm</node>
+    <node x="133.14583333333331" y="560.0">org.fade.pattern.bp.mediator.ConcreteMediator</node>
+    <node x="278.5072463768116" y="766.0">org.fade.pattern.bp.mediator.Client</node>
+    <node x="332.6458333333333" y="398.0">org.fade.pattern.bp.mediator.TV</node>
+    <node x="234.375" y="159.0">org.fade.pattern.bp.mediator.Colleague</node>
+    <node x="534.6458333333333" y="409.5">org.fade.pattern.bp.mediator.Curtain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.mediator.TV" target="org.fade.pattern.bp.mediator.Colleague">
+      <point x="0.0" y="-56.0" />
+      <point x="423.6458333333333" y="368.0" />
+      <point x="365.0" y="368.0" />
+      <point x="35.625" y="79.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.mediator.Curtain" target="org.fade.pattern.bp.mediator.Colleague">
+      <point x="-60.66666666666663" y="-44.5" />
+      <point x="564.9791666666667" y="358.0" />
+      <point x="388.75" y="358.0" />
+      <point x="59.375" y="79.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.mediator.ConcreteMediator" target="org.fade.pattern.bp.mediator.Mediator">
+      <point x="-69.99999999999997" y="-68.0" />
+      <point x="203.14583333333334" y="540.0" />
+      <point x="222.28442028985512" y="540.0" />
+      <point x="222.28442028985512" y="139.0" />
+      <point x="233.33333333333331" y="139.0" />
+      <point x="-43.5" y="44.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.mediator.Alarm" target="org.fade.pattern.bp.mediator.Colleague">
+      <point x="0.0" y="-44.5" />
+      <point x="101.5" y="348.0" />
+      <point x="246.25" y="348.0" />
+      <point x="-83.125" y="79.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4812206572769953" x="363.5" y="416.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.bp.mediator.ConcreteMediator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
