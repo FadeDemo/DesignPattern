@@ -10,7 +10,7 @@
 
 ![theory.png](../../../../img/pattern/bp/mediator/theory.png)
 
-###### 
+###### 说明
 
 * ###### Mediator是抽象的中介者，声明了各个具体同事类对象之间交互的接口
 

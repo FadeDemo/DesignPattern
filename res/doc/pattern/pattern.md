@@ -42,7 +42,7 @@
 
 * #### [中介者模式](bp/mediator/mediator.md)
 
-* #### 备忘录模式
+* #### [备忘录模式](bp/memento/memento.md)
 
 * #### 解释器模式
 
