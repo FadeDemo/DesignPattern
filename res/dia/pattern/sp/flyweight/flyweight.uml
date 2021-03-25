@@ -18,9 +18,7 @@
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="0.8633663366336634" x="180.5" y="242.5" />
-  <SelectedNodes>
-    <node>org.fade.pattern.sp.flyweight.Client</node>
-  </SelectedNodes>
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>
