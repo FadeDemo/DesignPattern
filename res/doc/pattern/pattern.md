@@ -44,7 +44,7 @@
 
 * #### [备忘录模式](bp/memento/memento.md)
 
-* #### 解释器模式
+* #### [解释器模式](bp/interpreter/interpreter.md)
 
 * #### 状态模式
 
