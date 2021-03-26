@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.interpreter</OriginalElement>
+  <nodes>
+    <node x="457.59642857142853" y="555.0">org.fade.pattern.bp.interpreter.Client</node>
+    <node x="462.80595238095236" y="299.0">org.fade.pattern.bp.interpreter.SubExpression</node>
+    <node x="477.09642857142853" y="415.0">org.fade.pattern.bp.interpreter.Calculator</node>
+    <node x="385.54285714285714" y="0.0">org.fade.pattern.bp.interpreter.Expression</node>
+    <node x="174.80595238095236" y="299.0">org.fade.pattern.bp.interpreter.AddExpression</node>
+    <node x="0.0" y="147.5">org.fade.pattern.bp.interpreter.VarExpression</node>
+    <node x="311.09642857142853" y="136.0">org.fade.pattern.bp.interpreter.SymbolExpression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.interpreter.SymbolExpression" target="org.fade.pattern.bp.interpreter.Expression">
+      <point x="-89.33333333333331" y="-56.5" />
+      <point x="355.7630952380953" y="106.0" />
+      <point x="469.29285714285714" y="106.0" />
+      <point x="-50.25" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.interpreter.SubExpression" target="org.fade.pattern.bp.interpreter.SymbolExpression">
+      <point x="0.0" y="-33.0" />
+      <point x="596.8059523809524" y="274.0" />
+      <point x="545.5964285714285" y="274.0" />
+      <point x="100.5" y="56.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.interpreter.AddExpression" target="org.fade.pattern.bp.interpreter.SymbolExpression">
+      <point x="0.0" y="-33.0" />
+      <point x="308.80595238095236" y="274.0" />
+      <point x="344.59642857142853" y="274.0" />
+      <point x="-100.5" y="56.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.interpreter.VarExpression" target="org.fade.pattern.bp.interpreter.Expression">
+      <point x="0.0" y="-45.0" />
+      <point x="134.0" y="86.0" />
+      <point x="402.29285714285714" y="86.0" />
+      <point x="-117.25" y="33.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5633187772925764" x="365.5" y="333.5" />
+  <SelectedNodes>
+    <node>org.fade.pattern.bp.interpreter.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
