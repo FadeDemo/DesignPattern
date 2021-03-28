@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.state.impl</OriginalElement>
+  <nodes>
+    <node x="504.0" y="172.0">org.fade.pattern.bp.state.impl.DispenseState</node>
+    <node x="259.0" y="172.0">org.fade.pattern.bp.state.impl.NoRaffleState</node>
+    <node x="459.5" y="408.0">org.fade.pattern.bp.state.impl.RaffleActivity</node>
+    <node x="647.8412698412698" y="0.0">org.fade.pattern.bp.state.impl.State</node>
+    <node x="749.0" y="172.0">org.fade.pattern.bp.state.impl.DispenseOutState</node>
+    <node x="0.0" y="172.0">org.fade.pattern.bp.state.impl.CanRaffleState</node>
+    <node x="500.0" y="962.0">org.fade.pattern.bp.state.impl.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.state.impl.DispenseState" target="org.fade.pattern.bp.state.impl.State">
+      <point x="0.0" y="-68.0" />
+      <point x="616.5" y="152.0" />
+      <point x="718.2579365079364" y="152.0" />
+      <point x="-14.083333333333371" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.impl.NoRaffleState" target="org.fade.pattern.bp.state.impl.State">
+      <point x="0.0" y="-68.0" />
+      <point x="371.5" y="142.0" />
+      <point x="690.0912698412698" y="142.0" />
+      <point x="-42.25" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.impl.DispenseOutState" target="org.fade.pattern.bp.state.impl.State">
+      <point x="0.0" y="-68.0" />
+      <point x="882.0" y="152.0" />
+      <point x="746.4246031746031" y="152.0" />
+      <point x="14.083333333333371" y="56.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.impl.CanRaffleState" target="org.fade.pattern.bp.state.impl.State">
+      <point x="0.0" y="-68.0" />
+      <point x="119.5" y="132.0" />
+      <point x="661.9246031746031" y="132.0" />
+      <point x="-70.41666666666663" y="56.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3969465648854962" x="507.5" y="514.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.bp.state.impl.CanRaffleState</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

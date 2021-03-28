@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.state.project</OriginalElement>
+  <nodes>
+    <node x="345.51041666666663" y="1381.0">org.fade.pattern.bp.state.project.PublishState</node>
+    <node x="413.76420131485435" y="334.5">org.fade.pattern.bp.state.project.AbstractState</node>
+    <node x="249.50868425728504" y="1692.0">org.fade.pattern.bp.state.project.GenerateState</node>
+    <node x="689.2765414001423" y="1564.5">org.fade.pattern.bp.state.project.Client</node>
+    <node x="602.9686167377399" y="0.0">org.fade.pattern.bp.state.project.State</node>
+    <node x="642.0104166666667" y="700.0">org.fade.pattern.bp.state.project.Context</node>
+    <node x="353.34361673773986" y="1080.0">org.fade.pattern.bp.state.project.PaidState</node>
+    <node x="250.63541666666666" y="1553.0">org.fade.pattern.bp.state.project.ReviewState</node>
+    <node x="71.84361673773981" y="827.0">org.fade.pattern.bp.state.project.FeedbackState</node>
+    <node x="352.34361673773986" y="1219.0">org.fade.pattern.bp.state.project.NotPayState</node>
+    <node x="0.0" y="300.0">org.fade.pattern.bp.state.project.StateEnum</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.state.project.Context" target="org.fade.pattern.bp.state.project.AbstractState">
+      <point x="-106.80000000000001" y="-160.0" />
+      <point x="668.7104166666667" y="650.0" />
+      <point x="630.7017013148543" y="650.0" />
+      <point x="83.4375" y="125.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.project.GenerateState" target="org.fade.pattern.bp.state.project.AbstractState">
+      <point x="45.0" y="-56.0" />
+      <point x="407.00868425728504" y="1662.0" />
+      <point x="631.5104166666667" y="1662.0" />
+      <point x="631.5104166666667" y="660.0" />
+      <point x="597.3267013148543" y="660.0" />
+      <point x="50.062499999999986" y="125.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.project.ReviewState" target="org.fade.pattern.bp.state.project.AbstractState">
+      <point x="-28.125" y="-44.5" />
+      <point x="335.01041666666663" y="1533.0" />
+      <point x="318.34361673773986" y="1533.0" />
+      <point x="318.34361673773986" y="680.0" />
+      <point x="463.82670131485435" y="680.0" />
+      <point x="-83.4375" y="125.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.project.PublishState" target="org.fade.pattern.bp.state.project.AbstractState">
+      <point x="53.39999999999998" y="-56.0" />
+      <point x="532.4104166666666" y="1351.0" />
+      <point x="603.8436167377399" y="1351.0" />
+      <point x="603.8436167377399" y="670.0" />
+      <point x="563.9517013148544" y="670.0" />
+      <point x="16.6875" y="125.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.project.PaidState" target="org.fade.pattern.bp.state.project.AbstractState">
+      <point x="27.25" y="-44.5" />
+      <point x="489.59361673773986" y="680.0" />
+      <point x="497.20170131485435" y="680.0" />
+      <point x="-50.0625" y="125.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.project.AbstractState" target="org.fade.pattern.bp.state.project.State">
+      <point x="0.0" y="-125.5" />
+      <point x="547.2642013148544" y="280.0" />
+      <point x="636.3436167377399" y="280.0" />
+      <point x="-100.125" y="125.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.project.NotPayState" target="org.fade.pattern.bp.state.project.AbstractState">
+      <point x="44.0" y="-56.0" />
+      <point x="506.34361673773986" y="1189.0" />
+      <point x="581.8436167377399" y="1189.0" />
+      <point x="581.8436167377399" y="680.0" />
+      <point x="530.5767013148544" y="680.0" />
+      <point x="-16.6875" y="125.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.state.project.FeedbackState" target="org.fade.pattern.bp.state.project.AbstractState">
+      <point x="56.25000000000006" y="-33.0" />
+      <point x="240.59361673773986" y="670.0" />
+      <point x="430.45170131485435" y="670.0" />
+      <point x="-116.8125" y="125.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.22807017543859648" x="455.0" y="902.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.bp.state.project.NotPayState</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

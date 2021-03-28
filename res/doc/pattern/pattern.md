@@ -46,7 +46,7 @@
 
 * #### [解释器模式](bp/interpreter/interpreter.md)
 
-* #### 状态模式
+* #### [状态模式](bp/state/state.md)
 
 * #### 策略模式
 
