@@ -48,6 +48,6 @@
 
 * #### [状态模式](bp/state/state.md)
 
-* #### 策略模式
+* #### [策略模式](bp/strategy/strategy.md)
 
 * #### 职责链模式

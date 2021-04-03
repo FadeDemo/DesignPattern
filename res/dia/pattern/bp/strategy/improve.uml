@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.strategy.improve</OriginalElement>
+  <nodes>
+    <node x="1390.7055555555555" y="570.0">org.fade.pattern.bp.strategy.improve.WildDuck</node>
+    <node x="273.0" y="310.0">org.fade.pattern.bp.strategy.improve.NoSwimBehavior</node>
+    <node x="532.0" y="206.0">org.fade.pattern.bp.strategy.improve.Duck</node>
+    <node x="1106.8625000000002" y="310.0">org.fade.pattern.bp.strategy.improve.CanQuackBehavior</node>
+    <node x="363.96388888888896" y="570.0">org.fade.pattern.bp.strategy.improve.ToyDuck</node>
+    <node x="988.1347222222223" y="0.0">org.fade.pattern.bp.strategy.improve.FlyBehavior</node>
+    <node x="0.0" y="310.0">org.fade.pattern.bp.strategy.improve.NoQuackBehavior</node>
+    <node x="861.8625000000002" y="310.0">org.fade.pattern.bp.strategy.improve.NoFlyBehavior</node>
+    <node x="1392.8625000000002" y="310.0">org.fade.pattern.bp.strategy.improve.CanSwimBehavior</node>
+    <node x="393.39583333333337" y="0.0">org.fade.pattern.bp.strategy.improve.QuackBehavior</node>
+    <node x="1665.8625000000002" y="310.0">org.fade.pattern.bp.strategy.improve.CanFlyBehavior</node>
+    <node x="646.2597222222223" y="0.0">org.fade.pattern.bp.strategy.improve.SwimBehavior</node>
+    <node x="1099.1347222222223" y="570.0">org.fade.pattern.bp.strategy.improve.PekingDuck</node>
+    <node x="823.151388888889" y="686.0">org.fade.pattern.bp.strategy.improve.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.strategy.improve.Duck" target="org.fade.pattern.bp.strategy.improve.SwimBehavior">
+      <point x="-23.083333333333258" y="-137.0" />
+      <point x="647.4166666666667" y="146.0" />
+      <point x="725.7597222222223" y="146.0" />
+      <point x="-26.5" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.NoSwimBehavior" target="org.fade.pattern.bp.strategy.improve.SwimBehavior">
+      <point x="0.0" y="-33.0" />
+      <point x="392.5" y="136.0" />
+      <point x="672.7597222222223" y="136.0" />
+      <point x="-79.5" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.ToyDuck" target="org.fade.pattern.bp.strategy.improve.Duck">
+      <point x="18.0" y="-33.0" />
+      <point x="453.96388888888896" y="540.0" />
+      <point x="566.625" y="540.0" />
+      <point x="-103.875" y="137.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.ToyDuck" target="org.fade.pattern.bp.strategy.improve.NoSwimBehavior">
+      <point x="-18.0" y="-33.0" />
+      <point x="417.96388888888896" y="550.0" />
+      <point x="392.5" y="550.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.NoQuackBehavior" target="org.fade.pattern.bp.strategy.improve.QuackBehavior">
+      <point x="0.0" y="-33.0" />
+      <point x="126.5" y="126.0" />
+      <point x="421.52083333333337" y="126.0" />
+      <point x="-84.375" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.CanQuackBehavior" target="org.fade.pattern.bp.strategy.improve.QuackBehavior">
+      <point x="0.0" y="-33.0" />
+      <point x="1239.8625000000002" y="106.0" />
+      <point x="590.2708333333334" y="106.0" />
+      <point x="84.375" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.Duck" target="org.fade.pattern.bp.strategy.improve.FlyBehavior">
+      <point x="69.25" y="-137.0" />
+      <point x="739.75" y="166.0" />
+      <point x="1012.8847222222223" y="166.0" />
+      <point x="-74.25" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.WildDuck" target="org.fade.pattern.bp.strategy.improve.Duck">
+      <point x="-58.875" y="-33.0" />
+      <point x="1410.3305555555555" y="510.0" />
+      <point x="774.375" y="510.0" />
+      <point x="103.875" y="137.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.WildDuck" target="org.fade.pattern.bp.strategy.improve.CanSwimBehavior">
+      <point x="19.625" y="-33.0" />
+      <point x="1488.8305555555555" y="540.0" />
+      <point x="1582.6125000000002" y="540.0" />
+      <point x="63.25" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.PekingDuck" target="org.fade.pattern.bp.strategy.improve.CanQuackBehavior">
+      <point x="23.0" y="-33.0" />
+      <point x="1214.1347222222223" y="550.0" />
+      <point x="1173.3625000000002" y="550.0" />
+      <point x="-66.5" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.CanSwimBehavior" target="org.fade.pattern.bp.strategy.improve.SwimBehavior">
+      <point x="0.0" y="-33.0" />
+      <point x="1519.3625000000002" y="96.0" />
+      <point x="831.7597222222223" y="96.0" />
+      <point x="79.5" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.WildDuck" target="org.fade.pattern.bp.strategy.improve.CanQuackBehavior">
+      <point x="-19.625" y="-33.0" />
+      <point x="1449.5805555555555" y="500.0" />
+      <point x="1306.3625000000002" y="500.0" />
+      <point x="66.5" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.ToyDuck" target="org.fade.pattern.bp.strategy.improve.NoFlyBehavior">
+      <point x="54.0" y="-33.0" />
+      <point x="489.96388888888896" y="550.0" />
+      <point x="918.1125000000002" y="550.0" />
+      <point x="-56.25" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.PekingDuck" target="org.fade.pattern.bp.strategy.improve.CanSwimBehavior">
+      <point x="69.0" y="-33.0" />
+      <point x="1260.1347222222223" y="550.0" />
+      <point x="1456.1125000000002" y="550.0" />
+      <point x="-63.25" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.Client" target="org.fade.pattern.bp.strategy.improve.WildDuck">
+      <point x="59.25" y="-33.0" />
+      <point x="961.401388888889" y="666.0" />
+      <point x="1469.2055555555555" y="666.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.Client" target="org.fade.pattern.bp.strategy.improve.Duck">
+      <point x="-19.75" y="-33.0" />
+      <point x="882.401388888889" y="656.0" />
+      <point x="741.2805555555556" y="656.0" />
+      <point x="741.2805555555556" y="540.0" />
+      <point x="635.875" y="540.0" />
+      <point x="-34.625" y="137.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.NoFlyBehavior" target="org.fade.pattern.bp.strategy.improve.FlyBehavior">
+      <point x="0.0" y="-33.0" />
+      <point x="974.3625000000002" y="186.0" />
+      <point x="1111.8847222222223" y="186.0" />
+      <point x="24.75" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.WildDuck" target="org.fade.pattern.bp.strategy.improve.CanFlyBehavior">
+      <point x="58.875" y="-33.0" />
+      <point x="1528.0805555555555" y="550.0" />
+      <point x="1785.3625000000002" y="550.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.PekingDuck" target="org.fade.pattern.bp.strategy.improve.Duck">
+      <point x="-69.0" y="-33.0" />
+      <point x="1122.1347222222223" y="530.0" />
+      <point x="705.125" y="530.0" />
+      <point x="34.625" y="137.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.Client" target="org.fade.pattern.bp.strategy.improve.PekingDuck">
+      <point x="19.75" y="-33.0" />
+      <point x="921.901388888889" y="656.0" />
+      <point x="1191.1347222222223" y="656.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.CanFlyBehavior" target="org.fade.pattern.bp.strategy.improve.FlyBehavior">
+      <point x="0.0" y="-33.0" />
+      <point x="1785.3625000000002" y="86.0" />
+      <point x="1161.3847222222223" y="86.0" />
+      <point x="74.25" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.PekingDuck" target="org.fade.pattern.bp.strategy.improve.NoFlyBehavior">
+      <point x="-23.0" y="-33.0" />
+      <point x="1168.1347222222223" y="520.0" />
+      <point x="1030.6125000000002" y="520.0" />
+      <point x="56.25" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.Client" target="org.fade.pattern.bp.strategy.improve.ToyDuck">
+      <point x="-59.25" y="-33.0" />
+      <point x="842.901388888889" y="666.0" />
+      <point x="435.96388888888896" y="666.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.Duck" target="org.fade.pattern.bp.strategy.improve.QuackBehavior">
+      <point x="-115.41666666666652" y="-137.0" />
+      <point x="555.0833333333335" y="126.0" />
+      <point x="477.77083333333337" y="126.0" />
+      <point x="-28.125" y="33.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.improve.ToyDuck" target="org.fade.pattern.bp.strategy.improve.NoQuackBehavior">
+      <point x="-54.0" y="-33.0" />
+      <point x="381.96388888888896" y="550.0" />
+      <point x="126.5" y="550.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4896373056994819" x="952.5" y="376.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.bp.strategy.improve.PekingDuck</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

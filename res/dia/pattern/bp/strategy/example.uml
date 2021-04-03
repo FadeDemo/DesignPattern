@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.strategy.example</OriginalElement>
+  <nodes>
+    <node x="262.0" y="370.0">org.fade.pattern.bp.strategy.example.Client</node>
+    <node x="0.0" y="219.5">org.fade.pattern.bp.strategy.example.WildDuck</node>
+    <node x="277.5" y="0.0">org.fade.pattern.bp.strategy.example.Duck</node>
+    <node x="177.0" y="185.0">org.fade.pattern.bp.strategy.example.ToyDuck</node>
+    <node x="341.0" y="208.0">org.fade.pattern.bp.strategy.example.PekingDuck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.strategy.example.ToyDuck" target="org.fade.pattern.bp.strategy.example.Duck">
+      <point x="0.0" y="-67.5" />
+      <point x="249.0" y="165.0" />
+      <point x="325.125" y="165.0" />
+      <point x="-15.875" y="67.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.example.WildDuck" target="org.fade.pattern.bp.strategy.example.Duck">
+      <point x="0.0" y="-33.0" />
+      <point x="78.5" y="155.0" />
+      <point x="293.375" y="155.0" />
+      <point x="-47.625" y="67.5" />
+    </edge>
+    <edge source="org.fade.pattern.bp.strategy.example.PekingDuck" target="org.fade.pattern.bp.strategy.example.Duck">
+      <point x="0.0" y="-44.5" />
+      <point x="433.0" y="165.0" />
+      <point x="356.875" y="165.0" />
+      <point x="15.875" y="67.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8289473684210527" x="262.5" y="218.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.bp.strategy.example.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
