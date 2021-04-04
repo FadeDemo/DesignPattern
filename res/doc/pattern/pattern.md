@@ -50,4 +50,4 @@
 
 * #### [策略模式](bp/strategy/strategy.md)
 
-* #### 职责链模式
+* #### [职责链模式](bp/cor/cor.md)

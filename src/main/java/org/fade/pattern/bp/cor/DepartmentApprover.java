@@ -1,7 +1,7 @@
 package org.fade.pattern.bp.cor;
 
 /**
- * 责任链模式
+ * 职责链模式
  * 系审批人
  * @author fade
  * */

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.fade.pattern.bp.cor</OriginalElement>
+  <nodes>
+    <node x="351.5000000000001" y="458.0">org.fade.pattern.bp.cor.CollegeApprover</node>
+    <node x="516.0833333333333" y="0.0">org.fade.pattern.bp.cor.PurchaseRequest</node>
+    <node x="10.5" y="458.0">org.fade.pattern.bp.cor.SchoolMasterApprover</node>
+    <node x="651.5000000000001" y="458.0">org.fade.pattern.bp.cor.DepartmentApprover</node>
+    <node x="559.9944444444445" y="604.0">org.fade.pattern.bp.cor.Client</node>
+    <node x="502.5833333333333" y="196.0">org.fade.pattern.bp.cor.Approver</node>
+    <node x="964.5000000000002" y="458.0">org.fade.pattern.bp.cor.ViceSchoolMasterApprover</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fade.pattern.bp.cor.DepartmentApprover" target="org.fade.pattern.bp.cor.Approver">
+      <point x="-97.66666666666686" y="-33.0" />
+      <point x="700.3333333333333" y="438.0" />
+      <point x="660.0833333333333" y="438.0" />
+      <point x="17.5" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.cor.CollegeApprover" target="org.fade.pattern.bp.cor.Approver">
+      <point x="0.0" y="-33.0" />
+      <point x="491.5000000000001" y="428.0" />
+      <point x="590.0833333333333" y="428.0" />
+      <point x="-52.5" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.cor.ViceSchoolMasterApprover" target="org.fade.pattern.bp.cor.Approver">
+      <point x="0.0" y="-33.0" />
+      <point x="1152.0000000000002" y="408.0" />
+      <point x="765.0833333333333" y="408.0" />
+      <point x="122.5" y="91.0" />
+    </edge>
+    <edge source="org.fade.pattern.bp.cor.SchoolMasterApprover" target="org.fade.pattern.bp.cor.Approver">
+      <point x="107.0" y="-33.0" />
+      <point x="278.0" y="418.0" />
+      <point x="555.0833333333333" y="418.0" />
+      <point x="-87.5" y="91.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5231884057971015" x="675.0" y="335.0" />
+  <SelectedNodes>
+    <node>org.fade.pattern.bp.cor.ViceSchoolMasterApprover</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
