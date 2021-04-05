@@ -18,3 +18,7 @@
 + #### [设计原则](res/doc/principle/principle.md)
 
 + #### [设计模式](res/doc/pattern/pattern.md)
+
+### 注意事项
+
+>不要拘泥于某种模式的套路，许多框架在设计时并不会严格按照某种套路来写，重要的是体会设计模式的思路。
