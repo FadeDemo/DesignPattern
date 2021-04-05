@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/language-Java-red" alt="language" />
     <img src="https://img.shields.io/badge/JDK-1.8.0_281-green" alt="JDK version" />
     <a href="https://www.bilibili.com/video/BV1G4411c7N4"><img src="https://img.shields.io/badge/%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B-vedio-pink" alt="视频教程" /></a>
-    <img src="GitHub Repo stars" src="https://img.shields.io/github/stars/paigeman/DesignPattern" alt="收藏" />
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/paigeman/DesignPattern"/>
 </p>
 
 ### 目的
