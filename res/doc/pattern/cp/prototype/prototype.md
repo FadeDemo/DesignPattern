@@ -158,6 +158,8 @@ public class Client {
 
 ###### [代码](../../../../../src/main/java/org/fade/pattern/cp/prototype/improve)
 
+#### [在Spring中的源码分析](spring.md)
+
 #### [原型模式下的浅拷贝问题](shallow.md)
 
 #### [对于浅拷贝问题的解决（深拷贝）](deep.md)
