@@ -6,6 +6,8 @@ package org.fade.pattern.sp.proxy.cglibproxy;
  * 目标对象
  * @author fade
  * */
+// Note: can not be final class
+//public final class Teacher {
 public class Teacher {
 
     public void teach(){

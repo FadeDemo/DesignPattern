@@ -35,6 +35,11 @@ public class TeacherProxyFactory implements MethodInterceptor {
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         System.out.println("CGLib代理开始......");
         Object returnVal = method.invoke(teacher,objects);
+        // or
+        methodProxy.invokeSuper(o, objects);
+        // NOTE: error
+//        methodProxy.invokeSuper(teacher, objects);
+//        Object returnVal = method.invoke(o ,objects);
         System.out.println("CGLib代理结束......");
         return returnVal;
     }
